@@ -1,14 +1,15 @@
 .banner-principal-decorativo
   &-1
+    animation: float2 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 19%
+    right: 15%
+    width: 30%
+  &-2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 15%
+    right: 57%
 
 
 @keyframes float1
@@ -17,3 +18,224 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+
+//////////////imagenes/////////////////import css-variables from 
+
+.banner-principal__img 
+    padding-top: 0rem !important
+    padding-bottom: 0rem !important
+    margin-left: -14%
+    width: 41.5%
+    margin-top: -7px
+
+.banner-principal__descripcion 
+    margin-right: 100px
+
+
+////////////colores
+
+.titulo-sintesis
+    border-left-color: #ff8f00
+
+
+.acordion__accion__btn--a
+  background-color: #A7E446 !important
+
+.acordion__activo
+  background-color: #FFF7E0 !important
+
+.color-check:after
+  background-color: #FC4B52
+
+.bg5
+  background-image: url('../assets/curso/temas/tema1/fondo-tarjeta.png')    
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center 
+  border-radius: 20px !important
+  margin-bottom: -5px
+  margin-top: -5px
+
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    flex: auto;
+    border-radius: 50%;
+    border: 2px solid #cccccc
+    background-color: #FECA2E
+    position: relative;
+    cursor: pointer;
+    transition: border-color 0.2s ease-in-out
+    //top: 26rem
+
+.pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot 
+    border-color: #cccccc
+    background-color: #FECA2E
+
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+    border-color: #cccccc
+    background-color: #cccccc00
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+    background-color: #cccccc
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before 
+    background-color: #cccccc
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+    background-color: #cccccc
+
+.img-infografica__item, .img-infografica-b__item
+    width: 3.5%
+
+.bloque-texto-g__texto 
+    width: 80%
+@media (max-width: 500px)
+  .bloque-texto-g__texto 
+      width: 100%
+
+.bloque-texto-b:before 
+    top: 65%
+    bottom: 10%
+    left: 50%
+    right: 0
+@media (max-width: 500px)
+  .bloque-texto-b:before 
+    top: 60%
+    bottom: 20%
+    left: 50%
+    right: 0
+
+.bloque-texto-b.color-secundario:before 
+    background-color: #E9F8D0
+
+.bloque-texto-b i:last-of-type
+    margin-left: 150px
+    vertical-align: text-top
+
+.bloque-texto-b i 
+    color: #FC4B52
+
+
+.lista-ul li > i:first-of-type
+    color: #FC4B52
+
+.img17-tm1
+    position: relative
+    width: 70%
+    left: 20px
+    top: 7px
+@media (max-width: 500px)
+  .img17-tm1
+      width: 40%
+      left: 100px
+      top: 0px
+
+.linea-tiempo-c__header__btn--left
+        background-color: #FECA2E
+.linea-tiempo-c__header__btn--right
+        background-color: #FECA2E
+
+.tarjeta--rosa
+  background-color: #FEE3E4 !important
+  margin-left: 2rem
+
+  .tabs-a__tab
+  background-color: #E8E8E8
+
+.tabs-b__tab
+  background-color:#EDF8F9
+
+.tabs-b__tab--active
+  background-color: #ffffff
+
+.lista-ol--cuadro__vineta 
+    background-color: #FC4B52
+
+.img52-t1
+    position: relative !important
+    width: 313% !important
+    right: 120% !important
+    max-width: 400% !important
+@media (max-width: 500px)
+  .img52-t1
+      position: relative !important
+      width: 256% !important
+      left: 250px!important
+      max-width: 300% !important
+      bottom: 85px
+
+.tarjeta--rosa1
+  background-color: #FFE4E5
+
+.tarjeta--rosa2
+  background-color: #FEC8CA
+
+
+.bloque-texto-g1__texto 
+    position: relative
+    width: 80%
+    background-color: rgba(255, 255, 255, 0.95);
+    right: 180px
+@media (max-width: 500px)
+  .bloque-texto-g1__texto  
+      position: relative
+      width: 100%
+      background-color: rgba(255, 255, 255, 0.95)
+      right: 0px
+
+
+.bloque-texto-g1__img 
+    width: 50%
+    position: absolute
+    top: 0px
+    left: 612px
+    bottom: 0
+    background-position: center
+    background-size: cover
+@media (max-width: 500px)
+  .bloque-texto-g1__img
+      width: 100%
+      position: absolute
+      top: 0px
+      left: 0px
+      bottom: 500px
+      background-position: center
+      background-size: cover
+
+.img1-2-t2
+  border-radius: 25px
+
+.tarjeta-slide__img
+    margin: 4px
+
+.tabs-a__tab 
+    width: 115%;
+    background-color:#E8E8E8
+
+.linea-tiempo-e__item__header:before 
+    content: ''
+    position: absolute
+    width: 20px
+    height: 20px
+    border-radius: 50%
+    border: 5px solid
+    background-color: #fff
+    top: 20px;
+    right: -14px;
+    z-index: 99;
+    transform: translateX(-50%)
+  
+
+.linea-tiempo-e.color-acento-contenido .linea-tiempo-e__item__header:before 
+    border-color: #3BC192
