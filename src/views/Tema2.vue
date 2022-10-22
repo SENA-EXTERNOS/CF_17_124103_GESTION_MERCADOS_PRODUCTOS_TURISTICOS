@@ -291,7 +291,7 @@
       p Tener claridad sobre los costos asociados a la realización de un evento es fundamental; por ello, estructurar adecuadamente el presupuesto registrando los valores económicos causados, permite anticipar el cumplimiento de los compromisos financieros. 
 
     .row.justify-content-center.my-5
-      LineaTiempoE.color-acento-contenido.linea-tiempo-e1__item__header
+      LineaTiempoE.color-acento-contenido
         .row(titulo="Objetivo del evento")
           .col-lg-2
             figure
