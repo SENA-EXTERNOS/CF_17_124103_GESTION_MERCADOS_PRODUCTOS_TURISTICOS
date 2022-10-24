@@ -33,7 +33,7 @@
                 | Integra también este tipo de turismo entre otros a congresos, seminarios, conferencias, ferias, convenciones y reuniones de carácter gubernamental, empresarial o social.
           
     .row.my-3
-      p En la siguiente infografía se detallan las principales características que un evento normalmente debe considerar.
+      b En la siguiente infografía se detallan las principales características que un evento normalmente debe considerar.
 
 
     .row.justify-content-center.my-3
@@ -68,7 +68,7 @@
     .row.my-5
       p La administración es un área del saber y hacer en la gestión de eventos, las acciones organizadas, ejecutadas y evaluadas del quehacer profesional necesitan de aplicación de herramientas de planificación y control sustentadas por el pensamiento sistémico y la concepción de gestión en la conducción, orientación, instrucción y asistencia de todos los actores que están involucrados.
 
-    .tarjeta.bg5.p-5
+    .tarjeta.tarjeta--azul2.bg5.p-5
       PasosB.color-acento-contenido
         .row(titulo="")
           .col-md-7.mb-4.mb-md-0
@@ -155,7 +155,7 @@
       p En la gestión de eventos el mapa de procesos contribuye a:
 
     .row.justify-content-center.my-5
-      .tarjeta.bg5.p-5
+      .tarjeta.tarjeta--azul2.bg5.p-5
         SlyderA(tipo="b")
           .row.justify-content-center
             .col-lg-4
@@ -268,13 +268,13 @@
         p La acción de planear eventos conlleva entre otros a la sincronización de recursos, tiempos y movimientos; un evento dependiendo de su magnitud requerirá de la gestión de estos recursos en mayor o menor medida. 
         p El diagrama de flujos es una herramienta necesaria que permite visualizar las relaciones y su variación para una serie de acciones que tienen un objetivo común, en la planeación de eventos permite identificar los procesos y actividades requeridas para desarrollar un evento, igualmente facilita la toma de decisiones sobre aspectos logísticos, presupuestales y de otros recursos que se visualizan en la medida que el diagrama muestra la ruta a seguir. 
 
-    .row.justify.content-center.my-5
+    .row.justify.content-center.mt-5
       ul.lista-ul.ps-4
         li
           i.fas.fa-square
           b Manuales de procedimiento
 
-    .row.justify-content-center.my-5
+    .row.justify-content-center.mt-2
       .col-lg-10
         .cajon.color-acento-botones.p-4
           p Son documentos que contienen información detallada, ordenada, sistemática e integral sobre las actividades y responsabilidades que se realizan en un área específica de la organización, teniendo como objetivo el proveer los lineamientos, reglas o normas de cómo utilizar algo de una forma sistemática, explícita y ordenada. 
@@ -322,7 +322,7 @@
     .row.justify.content-center.my-5
       .tarjeta.tarjeta--gris.p-4
         LineaTiempoC.color-acento-botones(text-small)
-          .row(titulo="Interacción con usuarios")
+          .row(titulo="Interacción con <br>usuarios")
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/img18.png', alt='Texto que describa la imagen')
@@ -342,7 +342,7 @@
                   i.fas.fa-check
                   | Organización eficazmente de la información de los usuarios.
 
-          .row(titulo="TIC en eventos")
+          .row(titulo="TIC en <br>eventos")
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/img19.png', alt='Texto que describa la imagen')
@@ -350,7 +350,7 @@
             .col-lg-8.my-4
               p El gestor de eventos está llamado a realizar actualización constante de sus conocimientos sobre estas herramientas, en este componente se mencionan algunas, pero en temas tecnológicos siempre hay disponibles soluciones adaptables a las necesidades particulares.
 
-          .row(titulo="Procesador de texto")
+          .row(titulo="Procesador <br>de texto")
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/img20.png', alt='Texto que describa la imagen')
@@ -358,7 +358,7 @@
             .col-lg-8.my-5
               p Asiste en el proceso de la escritura, como la presentación de una propuesta de servicio, permitiendo que el escritor no se preocupe por la estética del texto porque por la caja de herramientas que ofrece facilita la rápida edición de este. Algunos ejemplos son Word, Docs.
 
-          .row(titulo="Hoja de cálculo")
+          .row(titulo="Hoja de <br>cálculo")
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/img21.png', alt='Texto que describa la imagen')
@@ -366,7 +366,7 @@
             .col-lg-8.my-5
               p Facilitan las tareas relacionadas con cálculos numéricos repetitivos y mostrar resultado gráficamente. Ejemplo: Excel, hoja de cálculo de Google.
 
-          .row(titulo="Correo electrónico o <i>email</i>")
+          .row(titulo="Correo electrónico <br>o <i>email</i>")
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/img22.png', alt='Texto que describa la imagen')
@@ -374,7 +374,7 @@
             .col-lg-8.my-5
               p Es la principal herramienta para interactuar con usuarios, prestadores de servicios y clientes potenciales. Varios proveedores ofrecen gratuitamente el envío y recepción de mensajes junto con espacio para el almacenamiento de estos. Ejemplo: Gmail, Hotmail.
 
-          .row(titulo="Almacenamiento en la nube")
+          .row(titulo="Almacenamiento <br>en la nube")
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/img23.png', alt='Texto que describa la imagen')
@@ -443,7 +443,7 @@
                   i.fas.fa-check
                   | #[strong Realizar un análisis de mercado]
                 li
-                  i.fas.fa-check
+                  i
                   | Conocer el entorno, la situación actual del mercado en el que actúa la empresa y su posición con respecto a la competencia. Este análisis implica el conocimiento del público objetivo y toda la información clave para delimitar el segmento a analizar.
 
         .tarjeta.tarjeta--rosa.p-5(titulo="Fijar objetivos")
@@ -455,7 +455,7 @@
             .col-lg-10
               p Todo plan debe partir de unos objetivos claros, alcanzables, medibles y enmarcados en un periodo determinado. Esta etapa responde a la pregunta ¿qué se pretende lograr en la gestión comercial?
 
-        .tarjeta.tarjeta--rosa.p-5(titulo="Conocer el producto")
+        .tarjeta.tarjeta--rosa.p-5(titulo="Producto turístico")
           .row.justify-content-center
             .col-5.col-lg-2
               figure
@@ -464,7 +464,7 @@
             .col-lg-10
               p Además de sus propiedades, características físicas y funcionalidades básicas, es saber la necesidad que cubre y lo que motiva al cliente para adquirirlo.
 
-        .tarjeta.tarjeta--rosa.p-5(titulo="Estructurar un plan de <i>marketing</i>")
+        .tarjeta.tarjeta--rosa.p-5(titulo="Estructurar un plan de <b><i>marketing</i></b>")
           .row.justify-content-center
             .col-5.col-lg-2
               figure
@@ -491,7 +491,7 @@
             .col-lg-10
               p Hacer monitoreo de las acciones con respecto al logro de los objetivos, determinar la efectividad y tomar decisiones que permitan alcanzar la competitividad de la empresa.
 
-        .tarjeta.tarjeta--rosa.p-5(titulo="El mercadeo o <i>marketing</i> digital")
+        .tarjeta.tarjeta--rosa.p-5(titulo="El mercadeo o <b><i>marketing</i></b> digital")
           .row.justify-content-center
             .col-5.col-lg-2
               figure

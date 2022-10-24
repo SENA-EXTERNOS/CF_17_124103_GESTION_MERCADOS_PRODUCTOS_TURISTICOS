@@ -108,7 +108,7 @@
         .py-3.py-md-4.p-5(titulo="Necesidades del cliente")
           .row
             .col-md-5.mb-4.mb-md-0
-              figure.p-5
+              figure
                 img(src='@/assets/curso/temas/tema2/img8.png', alt='Texto que describa la imagen')
             .col-md-6
               p En la actualidad, se observa como diversos espacios son adaptados a las necesidades del cliente, presentando en ocasiones dificultades dado a que el escenario y lugar deben estar acorde con el tipo de evento a ejecutarse. 
@@ -238,7 +238,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/img13.png", alt="alt")          
       .col-lg-7
-        .cajon.color-acento-contenido.px-4.py-3.my-4
+        .cajon.color-acento-contenido.px-4.py-2
           p Los recursos para utilizar en un evento van directamente ligados a el tipo de evento y la magnitud de este; sin embargo, independiente de estos factores los recursos serán de tres tipos: recursos humanos, recursos materiales y recursos físicos.
         
         p Para ampliar información lo invitamos a revisar el #[strong anexo 5.1. Recursos del evento], allí encuentra los recursos mínimos y más usados en la planeación de eventos.
@@ -270,7 +270,7 @@
             br
             p Con acciones bien diseñadas en el tiempo, se consigue el objetivo de la logística, el cual es aumentar la eficiencia de los recursos a usar con el propósito de cumplir con lo planeado cubriendo las necesidades establecidas, conduciendo a la satisfacción de nuestros públicos: clientes, asistentes y proveedores.
 
-        p.my-4 Para ampliar información lo invitamos a revisar el #[ Anexo 6. Logística de eventos], donde encontrará los diversos tipos de montajes para la realización de eventos, montajes que estructuran  según la naturaleza del evento.
+        p.my-4 Para ampliar información lo invitamos a revisar el #[strong Anexo 6. Logística de eventos,] donde encontrará los diversos tipos de montajes para la realización de eventos, montajes que estructuran  según la naturaleza del evento.
 
         .col-lg-6
           a.anexo.mb-4(:href="obtenerLink('/downloads/anexo-6_logistica_de_eventos.pdf')" target="_blank")
@@ -292,25 +292,25 @@
 
     .row.justify-content-center.my-5
       LineaTiempoE.color-acento-contenido
-        .row(titulo="Objetivo del evento")
-          .col-lg-2
+        .row.justify-content-center(titulo="Objetivo del evento")
+          .col-5.col-lg-2
             figure
               img(src='@/assets/curso/temas/tema2/img15.png', alt='Texto que describa la imagen')
-          .col-lg-10.mb-4.mb-lg-0
+          .col-lg-10
             p.mt-4 Una vez se conoce el objetivo del evento, se valoran las necesidades a suplir para su realización. Tenemos dos opciones de estructura de presupuestos.
 
-        .row(titulo="Presupuesto adaptado al evento (mayor libertad)")
-          .col-lg-2
+        .row.justify-content-center(titulo="Presupuesto adaptado al evento (mayor libertad)")
+          .col-5.col-lg-2
             figure
               img(src='@/assets/curso/temas/tema2/img16.png', alt='Texto que describa la imagen')
-          .col-lg-10.mb-4.mb-lg-0
+          .col-lg-10
             p.mt-4 Para este caso se debe proyectar un presupuesto de acuerdo con una planificación general, a necesidades específicas, y a objetivos preestablecidos. Se debe estimar de la manera más realista, las posibilidades de recuperación de esos costos, o eventuales ganancias que reporte el evento. (#[i Wong], 2019).
 
-        .row(titulo="Evento adaptado al presupuesto (limitados)")
-          .col-lg-2
+        .row.justify-content-center(titulo="Evento adaptado al presupuesto (limitados)")
+          .col-5.col-lg-2
             figure
               img(src='@/assets/curso/temas/tema2/img17.png', alt='Texto que describa la imagen')
-          .col-lg-10.mb-4.mb-lg-0
+          .col-lg-10
             p.mt-4 Es el caso de eventos sociales en general, y empresariales como lanzamientos, jornadas de capacitación, etc., donde los organizadores cuentan con un monto de dinero predeterminado, y deben adecuar la contratación de proveedores y servicios, de acuerdo con el mismo. (#[i Wong], 2019).
 
     .row.my-5
