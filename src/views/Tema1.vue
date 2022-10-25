@@ -15,19 +15,19 @@
         p El mundo de los eventos se encuentra internacionalmente caracterizado en el segmento llamado MICE, refiriéndose al turismo de reuniones, incentivos, congresos y exposiciones.
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Vocación turística")
-            ul.lista-ul.ps-4
+            ul.lista-ul
               li
                 i.fas.fa-check
                 | Su actividad se ha convertido en un importante elemento dinamizador de todo tipo de enclaves con vocación turística, actuando con carácter desestacionalizador, aumentando la demanda de servicios de gama alta y también el gasto medio del visitante.
           
           .row(titulo="Escenario turístico")
-            ul.lista-ul.ps-4
+            ul.lista-ul
               li
                 i.fas.fa-check
                 | En el escenario turístico cuando se hace referencia al turismo de negocios, se remite a todas las actividades de dirección, ordenamiento, promoción y venta de congregaciones y eventos.
           
           .row(titulo="Tipos de eventos")
-            ul.lista-ul.ps-4
+            ul.lista-ul
               li
                 i.fas.fa-check
                 | Integra también este tipo de turismo entre otros a congresos, seminarios, conferencias, ferias, convenciones y reuniones de carácter gubernamental, empresarial o social.
@@ -38,7 +38,7 @@
 
     .row.justify-content-center.my-3
       .col-lg-10
-        ul.lista-ul.ps-4
+        ul.lista-ul
           li
             i.fas.fa-square
             b Características de los eventos
@@ -136,7 +136,7 @@
           p Para aplicar los principios de la organización se recomienda el uso de herramientas como diagrama de afinidad, el mapa de proceso, el flujograma, manuales de procedimiento y hoja de verificación. A continuación, se exponen sus características y formas de uso.
 
     .row.justify-content-center.my-3
-      ul.lista-ul.ps-4
+      ul.lista-ul
         li
           i.fas.fa-square
           b Mapa de procesos                                                      
@@ -160,7 +160,7 @@
           .row.justify-content-center
             .col-lg-4
               h4 Gestión de eventos 
-              ul.lista-ul.ps-4
+              ul.lista-ul
                 li
                   i.fas.fa-check
                   | Representar los procesos y sus interrelaciones. Aquí identificamos los procesos de la empresa y su relacionamiento según orden de ejecución.
@@ -171,7 +171,7 @@
           .row.justify-content-center
             .col-lg-4
               h4 Cuellos de botella 
-              ul.lista-ul.ps-4
+              ul.lista-ul
                 li
                   i.fas.fa-check
                   | Identificación de cuellos de botella, repeticiones en los procesos y demoras.
@@ -182,7 +182,7 @@
           .row.justify-content-center
             .col-lg-4
               h4 Límites de procesos 
-              ul.lista-ul.ps-4
+              ul.lista-ul
                 li
                   i.fas.fa-check
                   | Definición de límites en cada proceso, definición de métricas.
@@ -254,7 +254,7 @@
                 img(src='@/assets/curso/temas/tema1/img15.png', alt='Texto que describa la imagen')
 
     .row.justify.content-center.my-5
-      ul.lista-ul.ps-4
+      ul.lista-ul
         li
           i.fas.fa-square
           b Diagramas de flujo
@@ -269,7 +269,7 @@
         p El diagrama de flujos es una herramienta necesaria que permite visualizar las relaciones y su variación para una serie de acciones que tienen un objetivo común, en la planeación de eventos permite identificar los procesos y actividades requeridas para desarrollar un evento, igualmente facilita la toma de decisiones sobre aspectos logísticos, presupuestales y de otros recursos que se visualizan en la medida que el diagrama muestra la ruta a seguir. 
 
     .row.justify.content-center.mt-5
-      ul.lista-ul.ps-4
+      ul.lista-ul
         li
           i.fas.fa-square
           b Manuales de procedimiento
@@ -289,7 +289,7 @@
                   p Ejemplo procedimiento
 
     .row.justify.content-center.my-5
-      ul.lista-ul.ps-4
+      ul.lista-ul
         li
           i.fas.fa-square
           b Mapa de empatía
@@ -312,7 +312,7 @@
               p.my-4 Esta es una herramienta útil para la evaluación del desempeño de cada actor con responsabilidades en la realización de procedimientos en eventos. Se caracteriza por ser una lista de oraciones, frases o párrafos que describen aspectos específicos de la conducta a controlar durante la observación del evento. Las listas de chequeo brindan información descriptiva de lo que el lector debe realizar en determinada situación, es decir el análisis paso a paso de la tarea y del procedimiento a evaluar. 
 
     .row.justify.content-center.my-5
-      ul.lista-ul.ps-4
+      ul.lista-ul
         li
           i.fas.fa-square
           b Herramientas ofimáticas
@@ -404,7 +404,7 @@
             .col-lg-10
 
               p La gestión comercial interviene en todas las áreas de una empresa ya que determina volúmenes de producción para cubrir determinada demanda de servicios, comunica los requerimientos del cliente, determina los precios y formas de pago, etc. Una buena gestión comercial trae consigo beneficios para la empresa organizadora de eventos tales como:
-              ul.lista-ul.ps-4
+              ul.lista-ul
                 li
                   i.fas.fa-check
                   | Propicia el cumplimiento de los objetivos económicos de la empresa.
@@ -435,7 +435,7 @@
             
             .col-lg-10
               p La gestión comercial lleva consigo, para ser realizada de manera eficaz y eficiente, la construcción de un plan comercial que contemple los siguientes conceptos:
-              ul.lista-ul.ps-4
+              ul.lista-ul
                 li
                   i.fas.fa-check
                   | #[strong Análisis situacional]
@@ -519,7 +519,7 @@
               p En ese sentido, el #[strong #[i marketing]] digital, está orientado a establecer una relación directa entre la empresa y el consumidor mediante el uso de los diferentes canales de comunicación, para lograr este objetivo, esta disciplina se apoya en diferentes técnicas para que el usuario de internet tenga la información justa y necesaria de nuestra empresa.
 
     .row.justify.content-center.my-5
-      ul.lista-ul.ps-4
+      ul.lista-ul
         li
           i.fas.fa-square
           b Análisis situacional y de mercado
@@ -584,7 +584,7 @@
             
             .col-lg-7
               p Esto quiere decir que cada objetivo que planteemos debe cumplir todas las características mencionadas.
-              ul.lista-ul.ps-4
+              ul.lista-ul
                 li
                   i.fas.fa-check
                   | Ser específico
@@ -610,7 +610,7 @@
             .col-lg-7
               h4 Establecer objetivos #[strong #[i SMART]] 
               p Para lograr el cometido de establecer objetivos claros, pero sobre todo realistas y cumplibles, nos apoyaremos en la técnica #[strong #[i SMART]] (Jiménez Vida, 2021), que proviene de un acrónimo en inglés que significa:  
-              ul.lista-ul.ps-4
+              ul.lista-ul
                 li
                   i.fas.fa-check
                   | S: #[strong #[i specific]] : específico
@@ -629,7 +629,7 @@
 
     .row.justify.content-center.my-5
       .col-lg-6
-        ul.lista-ul.ps-4
+        ul.lista-ul
           li
             i.fas.fa-square
             b Estrategias competitivas

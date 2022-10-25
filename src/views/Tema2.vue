@@ -135,7 +135,7 @@
 
     .row.justify.content-center.my-5
       .col-lg-6
-        ul.lista-ul.ps-4
+        ul.lista-ul
           li
             i.fas.fa-square
             b Aspectos de la planeación de eventos
@@ -194,7 +194,7 @@
 
     .row.justify.content-center.my-5
       .col-lg-6
-        ul.lista-ul.ps-4
+        ul.lista-ul
           li
             i.fas.fa-square
             b Normatividad en los eventos 
@@ -321,7 +321,7 @@
       .col-lg-6
         h3 Costos Fijos
         p Independiente del éxito del evento, constituyen los costos fijos aquellos valores que hay que cancelar, esto es:
-        ul.lista-ul.ps-4
+        ul.lista-ul
           li
             i.fas.fa-check
             | El sitio elegido para realizar el evento, es en su orden el mayor desembolso en que se incurrirá.
@@ -369,7 +369,7 @@
       .col-lg-6
         h3 Costos Variables
         p Son aquellos que varían en relación a la cantidad de personas que deciden asistir a un evento, tenemos:
-        ul.lista-ul.ps-4
+        ul.lista-ul
           li
             i.fas.fa-check
             | Material de Acreditación-credenciales-folletos-souvenirs-diplomas-etc.
