@@ -676,7 +676,7 @@
         .row
           .col-lg-10
             .cajon.tarjeta--rosa1.p-4
-              .row.justify-content-center
+              .row
                 .col-5.col-lg-2
                   figure
                     img(src='@/assets/curso/temas/tema1/img49.png', alt='Texto que describa la imagen') 
@@ -685,7 +685,7 @@
                   p Como parte del concepto de humanización del servicio, el recurso humano es un elemento fundamental, en el trato con el consumidor y como resultado de este en la gestión de ventas del producto o servicio. En la industria turística, un servicio enfocado a personas es aún más relevante, cuesta trabajo imaginar una empresa turística que realiza eventos sin personal que garantice que el servicio se preste como está planeado. En todas las industrias, y en especial en la que nos atañe, la asistencia al cliente, el servicio posventa, la interacción con telemercadeo y por las redes sociales, son ejemplos donde el cliente entra en contacto con una persona. Es por ende, la formación de estos en el manejo y afinidad con el cliente lo que marca la diferencia en el servicio al cliente y su posicionamiento.          
 
             .cajon.tarjeta--rosa2.p-4
-              .row.justify-content-center
+              .row
                 .col-5.col-lg-2
                   figure
                     img(src='@/assets/curso/temas/tema1/img50.png', alt='Texto que describa la imagen') 
@@ -694,7 +694,7 @@
                   p Centrado en la forma de prestación del servicio, entonces es posible afirmar que una definición de los procesos, coherente con la calidad que se desea brindar, es el primer paso para asegurar un trato amable, rápido e igualitario para todos. Está probado que los procesos bien estructurados aumentan las tasas de captación y retención de clientes, así que trabajar en su definición, no solo ayuda al posicionamiento, sino que además optimiza costos y maximiza la capacidad de respuesta.
 
             .cajon.tarjeta--rosa1.p-4
-              .row.justify-content-center
+              .row
                 .col-5.col-lg-2
                   figure
                     img(src='@/assets/curso/temas/tema1/img51.png', alt='Texto que describa la imagen') 

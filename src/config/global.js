@@ -3,16 +3,16 @@ export default {
     componenteFormativo: 'Planeación de eventos',
     descripcionCurso:
       'Realizar un viaje a cualquier destino conlleva diversidad de motivaciones, necesidades, intereses y deseos; uno de ellos son los eventos. Quienes se desplazan por este interés, pagan por la temática y el contenido y están dispuestos a contratar experiencias adicionales para hacer uso en su tiempo libre como visitas a atractivos turísticos, compras locales, alquiler de vehículos, alimentación y alojamiento.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
