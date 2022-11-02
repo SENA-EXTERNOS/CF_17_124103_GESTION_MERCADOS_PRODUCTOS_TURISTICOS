@@ -9,7 +9,7 @@
 
     .row.justify-content-center.mt-5
       .col-lg-10
-        p La palabra evento proviene del latín «eventus» que significa acontecimiento, suceso, eventualidad.
+        p La palabra evento proviene del latín #[i «eventus»] que significa acontecimiento, suceso, eventualidad.
 
     .row.justify-content-center
       .col-lg-10
@@ -375,7 +375,7 @@
             | Material de Acreditación-credenciales-folletos-souvenirs-diplomas-etc.
           li  
             i.fas.fa-check
-            | Servicio de catering, Coffe break, almuerzos, cenas
+            | Servicio de #[i catering, Coffe break], almuerzos, cenas
           li  
             i.fas.fa-check
             | Personal temporal

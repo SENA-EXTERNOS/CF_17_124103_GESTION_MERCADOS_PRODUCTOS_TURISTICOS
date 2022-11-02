@@ -48,7 +48,7 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            b según el último ranking de la Asociación Internacional de Congresos y Convenciones (ICCA), en 2017 Colombia ocupó el lugar 32 entre 168 naciones del mundo y el sexto en Latinoamérica en cantidad de reuniones organizadas, consolidándose como uno de los jugadores más atractivos del sector
+            p.mb-0 #[strong según el último #[em ranking] de la Asociación Internacional de Congresos y Convenciones (ICCA), en 2017 Colombia ocupó el lugar 32 entre 168 naciones del mundo y el sexto en Latinoamérica en cantidad de reuniones organizadas, consolidándose como uno de los jugadores más atractivos del sector]
             i.fas.fa-quote-right
           p - (El 16 Espectador [EE], 2018)
 
@@ -356,7 +356,7 @@
                 img(src='@/assets/curso/temas/tema1/img20.png', alt='Texto que describa la imagen')
 
             .col-lg-8.my-5
-              p Asiste en el proceso de la escritura, como la presentación de una propuesta de servicio, permitiendo que el escritor no se preocupe por la estética del texto porque por la caja de herramientas que ofrece facilita la rápida edición de este. Algunos ejemplos son Word, Docs.
+              p Asiste en el proceso de la escritura, como la presentación de una propuesta de servicio, permitiendo que el escritor no se preocupe por la estética del texto porque por la caja de herramientas que ofrece facilita la rápida edición de este. Algunos ejemplos son #[i Word, Docs].
 
           .row(titulo="Hoja de <br>cálculo")
             .col-lg-4
@@ -380,7 +380,7 @@
                 img(src='@/assets/curso/temas/tema1/img23.png', alt='Texto que describa la imagen')
 
             .col-lg-8.my-5
-              p Permite al gestor de eventos almacenar y consultar textos, hojas de cálculo, imágenes, videos y similares desde un dispositivo con conexión a internet. Así mismo, los usuarios del servicio pueden acceder al mismo tipo de información. Ejemplo de estos servicios, Drive, Dropbox, OneDrive, Amazon Drive.
+              p Permite al gestor de eventos almacenar y consultar textos, hojas de cálculo, imágenes, videos y similares desde un dispositivo con conexión a internet. Así mismo, los usuarios del servicio pueden acceder al mismo tipo de información. Ejemplo de estos servicios, #[i Drive, Dropbox, OneDrive, Amazon Drive].
 
     separador
 
