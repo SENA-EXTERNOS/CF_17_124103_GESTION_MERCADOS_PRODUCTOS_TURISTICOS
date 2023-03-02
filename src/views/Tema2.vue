@@ -9,17 +9,18 @@
 
     .row.justify-content-center.mt-5
       .col-lg-10
-        p La palabra evento proviene del latín #[i «eventus»] que significa acontecimiento, suceso, eventualidad.
+        p Para dar inicio cabe hacer énfasis en 2 elementos claves:
 
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-12
         .row.justify-content-center.my-5
           .col-8.col-lg-6.my-3
             .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
               .indicador--hover(v-if="indicadorTarjetaSlide")
               .tarjeta-slide__contenedor.p-3
                 .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.png')})`}").img1-2-t2
-                .tarjeta-slide__contenido.p-4.p-xl-5
+                .tarjeta-slide__contenido.p-3.p-xl-5
+                  p.text-center La palabra evento proviene del latín #[i «eventus»] que significa acontecimiento, suceso, eventualidad.
                   p.text-center Un evento es una actividad especial que se realiza fuera de la rutina regular para celebrar un acontecimiento que debe llevar una planificación al menos en cuanto a espacio y tiempo (lugar, fechas, horas), y que se clasifica según su naturaleza.
 
 
@@ -27,15 +28,13 @@
             .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
               .tarjeta-slide__contenedor
                 .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img2.png')})`}").img1-2-t2
-                .tarjeta-slide__contenido.p-4.p-xl-5
-                  p.text-center A su vez, un evento es una herramienta de #[strong #[i marketing]], relaciones públicas y comunicación que se convierten en una carta de presentación frente a posibles clientes, medios de comunicación y público en general de una empresa, organización o la misma ciudad.
+                .tarjeta-slide__contenido.p-3.p-xl-5
+                  p.text-center Desde el punto de vista del  #[i marketing], un evento es una herramienta de relaciones públicas y comunicación que se convierten en una carta de presentación frente a posibles clientes, medios de comunicación y público en general de una empresa, organización o la misma ciudad con el fin de dar a conocer un lanzamiento de la empresa de nuevos productos y/o servicios, dar a conocer un nuevo elemento de innovación sobre procesos, materiales, etc, resaltar alguna particularidad de la marca, entre otros. 
 
     separador
 
-    #t_2_1
-
-    .titulo-segundo.color-acento-contenido.my-5
-      h2 2.1  Clasificación
+    .titulo-tercero.my-5
+      h2 Clasificación
 
     .row.justify-content-center.my-5
       p A continuación se invita a revisar la clasificación más común sobre eventos y sus características diferenciadoras.
@@ -52,19 +51,37 @@
 
         .row(titulo="Sociales")
           .col-lg-6.mb-4.mb-lg-0
-            p Su finalidad es compartir o celebrar algún acontecimiento especial (coctel, matrimonios, fiestas, conciertos etc.)
-            p Características básicas: se realiza, por lo general, en la tarde o noche. Son eventos que nos permite reunir una gran cantidad de personas, con un bajo costo de operación (en promedio).
-            p Los alimentos están presentados como canapés, fríos y calientes, de tamaño pequeño, que puedan ser tomados con las manos, pues lo fundamental del cóctel es que es un evento a pie.<br>Bebidas alcohólicas y sin alcohol.<br>Decoración acorde al evento.<br>Servicio de meseros.<br>Mesas adornadas, tipo islas, para proveer de alimentos y bebidas a los invitados.
+            p Son aquellos que tienen como fin el #[b encuentro entre personas], buscando la convivencia y la relación social, por medio de una actividad gastronómica.
+            p Por lo tanto, los más populares son bodas, bautizos y cumpleaños; pero también son eventos sociales el homenaje a alguna persona por algo significativo como una jubilación o grado o una cena ofrecida en un congreso.
+
           .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema2/img4.png', alt='Texto que describa la imagen')
 
-        .row(titulo="Evento fiesta")
+        .row(titulo="Eventos musicales y/o Culturales")
           .col-lg-6.mb-4.mb-lg-0
-            p Para el evento fiesta, la cual es un rito social, compartido entre un grupo de personas, donde se marca un cierto acontecimiento a modo de celebración.  Se integra con una presentación artística, baile, espectáculos, etc., sé debe considerar su alto costo para de ejecución y el control de asistentes.
+            p Son eventos que dependen de su contenido y con ello variará la complejidad en la organización, logística, presupuesto, etc. Por lo tanto, podría ser un pequeño concierto o un gran festival internacional. Adicionalmente pueden ser organizados por entidades públicas o privadas.
+
           .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema2/img5.png', alt='Texto que describa la imagen')
+
+        .row(titulo="Eventos virtuales")
+          .col-lg-6.mb-4.mb-lg-0
+            p Son una de las más nuevas tendencias en el sector de los eventos, que al igual que los otros tienen como objetivo reunir personas, pero como gran diferencial en un entorno virtual. 
+            p Los eventos virtuales más conocidos actualmente son las ferias, conferencias, reuniones de ventas, entre otros.
+
+          .col-lg-6
+            figure
+              img(src='@/assets/curso/temas/tema2/img20.png', alt='Texto que describa la imagen')
+
+        .row(titulo="Fiesta")
+          .col-lg-6.mb-4.mb-lg-0
+            p Para el evento fiesta, la cual es un rito social, compartido entre un grupo de personas, donde se marca un cierto acontecimiento a modo de celebración.  Se integra con una presentación artística, baile, espectáculos, entre otros, también se debe considerar su alto costo para la ejecución y el control de asistentes.
+
+          .col-lg-6
+            figure
+              img(src='@/assets/curso/temas/tema2/img21.png', alt='Texto que describa la imagen')
 
     .row.my-5
       .cajon.color-acento-contenido.p-4
@@ -87,10 +104,9 @@
 
     separador
 
-    #t_2_2
 
-    .titulo-segundo.color-acento-contenido.my-5
-      h2 2.2  Escenarios
+    .titulo-tercero.my-5
+      h2 Escenarios
 
     .row.justify-content-center.my-5
       p Elegir un escenario o espacio para realizar un evento es una responsabilidad que requiere conocimiento detallado sobre los aspectos necesarios y que influyen en su realización.
@@ -128,10 +144,9 @@
 
     separador
 
-    #t_2_3
 
     .titulo-segundo.color-acento-contenido.my-5
-      h2 2.3  Planeación de eventos 
+      h2 Planeación de eventos 
 
     .row.justify.content-center.my-5
       .col-lg-6
@@ -184,14 +199,13 @@
 
     separador
 
-    #t_2_4
 
-    .titulo-segundo.color-acento-contenido.my-5
-      h2 2.4  Normatividad
+    .titulo-tercero.my-5
+      h2  Normatividad
 
     .row.justify.content-center.my-5
-      p Las empresas del sector turístico que tienen como actividad la organización de eventos debe tener en cuenta los siguientes aspectos que van enfocados a la comercialización digital:
-
+      p Las empresas del sector turístico que tienen como actividad la organización de eventos, deben tener en cuenta los siguientes aspectos que van enfocados a la comercialización digital:
+      
     .row.justify.content-center.my-5
       .col-lg-6
         ul.lista-ul
@@ -203,24 +217,14 @@
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Mercado en línea")
-            ul.lista-ul.ps-4
-              li
-                i.fas.fa-check
-                | El realizar actividades de mercado en línea, es considerado como ventas a distancia. Este tipo de ventas están contempladas en la ley 1480 de 2011 del estatuto del consumidor (artículo 5°, numeral 16).
-                br
-                | Este numeral indica que este tipo de ventas son las efectuadas sin tener contacto físico con el producto y se llevan a cabo vía telefónica, a través de correo y demás canales disponibles en el comercio en línea.
-          
+            p Realizar actividades de mercado en línea, es considerado como ventas a distancia. Este tipo de ventas están contempladas en la ley 1480 de 2011 del estatuto del consumidor (artículo 5°, numeral 16). 
+            p Este numeral indica que este tipo de ventas son las efectuadas sin tener contacto físico con el producto y se llevan a cabo vía telefónica, a través de correo y demás canales disponibles en el comercio en línea.
+
           .row(titulo="Ventas que utilizan métodos no tradicionales")
-            ul.lista-ul.ps-4
-              li
-                i.fas.fa-check
-                | El estatuto contempla en su capítulo 5: “De las ventas que utilizan métodos no tradicionales o a distancia”, las normas a cumplir por parte de los establecimientos de comercio en línea.
-          
+            p El estatuto contempla en su capítulo 5: “De las ventas que utilizan métodos no tradicionales o a distancia”, las normas a cumplir por parte de los establecimientos de comercio en línea.
+
           .row(titulo="Estatuto del consumidor")
-            ul.lista-ul.ps-4
-              li
-                i.fas.fa-check
-                | Una vez revisado el estatuto del consumidor, es necesario analizar las normas que se establecen en la “ley 527 de 1999: Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones”.
+            p Una vez revisado el estatuto del consumidor, es necesario analizar las normas que se establecen en la “ley 527 de 1999: Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones”.
 
       .col-9.col-lg-4.mb-3
         figure
@@ -228,10 +232,9 @@
 
     separador
 
-    #t_2_5
 
-    .titulo-segundo.color-acento-contenido.my-5
-      h2 2.5  Recursos del evento
+    .titulo-tercero.my-5
+      h2 Recursos del evento
 
     .row.justify-content-center
       .col-8.col-lg-5
@@ -253,10 +256,9 @@
 
     separador
 
-    #t_2_6
 
-    .titulo-segundo.color-acento-contenido.my-5
-      h2 2.6  Logística de eventos
+    .titulo-tercero.my-5
+      h2 Logística de eventos
 
     .row.justify-content-center.my-5
       .col-lg-10
@@ -282,10 +284,9 @@
 
     separador
 
-    #t_2_7
 
-    .titulo-segundo.color-acento-contenido.my-5
-      h2 2.7  Presupuestos
+    .titulo-tercero.my-5
+      h2 Presupuestos
 
     .row.justify-content-center.my-5
       p Tener claridad sobre los costos asociados a la realización de un evento es fundamental; por ello, estructurar adecuadamente el presupuesto registrando los valores económicos causados, permite anticipar el cumplimiento de los compromisos financieros. 
@@ -304,14 +305,14 @@
             figure
               img(src='@/assets/curso/temas/tema2/img16.png', alt='Texto que describa la imagen')
           .col-lg-10
-            p.mt-4 Para este caso se debe proyectar un presupuesto de acuerdo con una planificación general, a necesidades específicas, y a objetivos preestablecidos. Se debe estimar de la manera más realista, las posibilidades de recuperación de esos costos, o eventuales ganancias que reporte el evento. (#[i Wong], 2019).
+            p.mt-4 Para este caso se debe proyectar un presupuesto de acuerdo con una planificación general, a necesidades específicas, y a objetivos preestablecidos. Se debe estimar de la manera más realista, las posibilidades de recuperación de esos costos, o eventuales ganancias que reporte el evento. (Wong, 2019).
 
         .row.justify-content-center(titulo="Evento adaptado al presupuesto (limitados)")
           .col-5.col-lg-2
             figure
               img(src='@/assets/curso/temas/tema2/img17.png', alt='Texto que describa la imagen')
           .col-lg-10
-            p.mt-4 Es el caso de eventos sociales en general, y empresariales como lanzamientos, jornadas de capacitación, etc., donde los organizadores cuentan con un monto de dinero predeterminado, y deben adecuar la contratación de proveedores y servicios, de acuerdo con el mismo. (#[i Wong], 2019).
+            p.mt-4 Es el caso de eventos sociales en general, y empresariales como lanzamientos, jornadas de capacitación, etc., donde los organizadores cuentan con un monto de dinero predeterminado, y deben adecuar la contratación de proveedores y servicios, de acuerdo con el mismo. (Wong, 2019).
 
     .row.my-5
       .cajon.color-acento-contenido.p-4
@@ -372,28 +373,28 @@
         ul.lista-ul
           li
             i.fas.fa-check
-            | Material de Acreditación-credenciales-folletos-souvenirs-diplomas-etc.
+            | Material de acreditación, credenciales, folletos, #[i souvenirs], diplomas, etc.
           li  
             i.fas.fa-check
-            | Servicio de #[i catering, Coffe break], almuerzos, cenas
+            | Servicio de #[i catering, coffe break,] almuerzos, cenas.
           li  
             i.fas.fa-check
-            | Personal temporal
+            | Personal temporal.
           li  
             i.fas.fa-check
-            | Estacionamientos
+            | Estacionamientos.
           li  
             i.fas.fa-check
-            | Computadores y mobiliario en general
+            | Computadores y mobiliario en general.
           li  
             i.fas.fa-check
-            | Gastos bancarios
+            | Gastos bancarios.
           li  
             i.fas.fa-check
-            | Personal de seguridad y servicios generales
+            | Personal de seguridad y servicios generales.
           li  
             i.fas.fa-check
-            | Adicional a lo anterior, se debe tener presente un rubro de imprevistos: tomar medidas contables asignando recursos para cubrir un suceso inesperado.
+            | Adicional a lo anterior, se debe tener presente un rubro de imprevistos: tomar medidas contables asignando recursos para cubrir un suceso inesperado. 
 
     .row.justify-content-center.my-5
       p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, la actividad didáctica, material complementario, entre otros.

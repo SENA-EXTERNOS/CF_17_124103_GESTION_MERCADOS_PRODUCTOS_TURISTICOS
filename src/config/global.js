@@ -39,26 +39,6 @@ export default {
         numero: '1',
         titulo: 'Gestión de eventos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Gestión administrativa',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Gestión comercial',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Comunicación comercial',
-            hash: 't_1_3',
-          },
-        ],
       },
 
       {
@@ -67,50 +47,6 @@ export default {
         numero: '2',
         titulo: 'Eventos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Clasificación',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Escenarios',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Planeación de eventos',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Normatividad',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Recursos del evento',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Logística de eventos',
-            hash: 't_2_6',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.7',
-            titulo: 'Presupuestos',
-            hash: 't_2_7',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -157,7 +93,7 @@ export default {
     {
       tema: '2.4 Normatividad',
       referencia:
-        'Ley 1480 de 2011. Por medio de la cual se expide el Estatuto del Consumidor y se dictan otras disposiciones. Octubre 12 de 2011. DO N° 48220.',
+        'Ley 1480 de 2011. <i>Por medio de la cual se expide el Estatuto del Consumidor y se dictan otras disposiciones.</i> Octubre 12 de 2011. DO N° 48220.',
       tipo: 'Ley',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=44306',
@@ -172,7 +108,7 @@ export default {
     {
       tema: '2.4 Normatividad',
       referencia:
-        'Superintendencia de Industria y Comercio. <i>Guía sobre el tratamiento de datos personales para fines de comercio electrónico<i>. <b>2019.<b>',
+        'Superintendencia de Industria y Comercio. <i>Guía sobre el tratamiento de datos personales para fines de comercio electrónico.</i> 2019.',
       tipo: 'Guía',
       link:
         'https://www.sic.gov.co/sites/default/files/files/pdf/Guia%20SIC%20Tratamiento%20Datos%20Personales%20ComercioElectronico(1).pdf',
@@ -180,7 +116,7 @@ export default {
     {
       tema: '2.3 Planeación de eventos',
       referencia:
-        'López Gómez, MP (sf).  Organización de actos: definir recursos y asignar responsabilidades. Protocolo.org.',
+        'López Gómez, MP (sf). <i>Organización de actos: definir recursos y asignar responsabilidades.</i> Protocolo.org.',
       tipo: '<b>Página web<b>',
       link:
         'https://www.protocolo.org/ceremonial/eventos/recursos-para-la-organizacion-de-actos.html ',
@@ -204,7 +140,7 @@ export default {
     {
       termino: '<i>Stand<i>',
       significado:
-        'espacio de exhibición en una feria o exposición que consta de una superficie determinada de piso de exposición y mamparas que lo separan de otros <i>stands</i> además de un rótulo de identificación',
+        'espacio de exhibición en una feria o exposición que consta de una superficie determinada de piso de exposición y mamparas que lo separan de otros stands además de un rótulo de identificación.',
     },
     {
       termino: 'Mapa de procesos',
@@ -214,12 +150,12 @@ export default {
     {
       termino: 'Diagramas de flujo',
       significado:
-        'el diagrama de flujos es una herramienta necesaria que permite visualizar las relaciones y su variación para  una serie de acciones que tienen un objetivo común',
+        'el diagrama de flujo es una herramienta necesaria que permite visualizar las relaciones y su variación para una serie de acciones que tienen un objetivo común.',
     },
     {
       termino: 'Manuales de procedimiento',
       significado:
-        'son documentos que contienen información detallada, ordenada, sistemática e integral sobre las actividades y responsabilidades que se realizan en un área específica de la organización, teniendo como objetivo el proveer los lineamientos, reglas o normas de cómo utilizar algo de una forma sistemática, explícita y ordenada',
+        'son documentos que contienen información detallada, ordenada, sistemática e integral sobre las actividades y responsabilidades que se realizan en un área específica de la organización, teniendo como objetivo el proveer los lineamientos, reglas o normas de cómo utilizar algo de una forma explícita y ordenada.',
     },
     {
       termino: 'Mapa de empatía',
@@ -240,13 +176,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Libro | Acosta, R. (2009). <i>Flujograma..</i> El Cid Editor | apuntes.',
+        'Libro | Acosta, R. (2009). <i>Flujograma</i>. El Cid Editor | apuntes.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/28942 ',
     },
     {
       referencia:
-        'Libro | Business Review, H. & Merino Gómez, B. (Trad.). (2018). <i>Empatía..</i> Editorial Reverté. ',
+        'Libro | Business Review, H. & Merino Gómez, B. (Trad.). (2018). <i>Empatía.</i> Editorial Reverté.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/128587 ',
     },
@@ -263,19 +199,19 @@ export default {
     },
     {
       referencia:
-        'Página web | El Espectador. (30 de octubre de 2018). El Espectador. (Redacción Comercial) Recuperado el 10 de abril de 2019, de El Espectador:',
+        'Página web | El Espectador. (30 de octubre de 2018). <i>El Espectador.</i> (Redacción Comercial) Recuperado el 10 de abril de 2019, de El Espectador:',
       link:
         'https://www.elespectador.com/actualidad/los-eventos-empresariales-una-industria-en-crecimiento-article-820835/#:~:text=Los%20eventos%20empresariales%20una%20industria%20en%20crecimiento',
     },
     {
       referencia:
-        'Página web | Colaborador Blog Fosbury. (2021, septiembre 22). El <i>marketing</i> de eventos o cómo crear experiencias memorables. <i>Blog Fosbury</i>',
+        'Página web | Colaborador Blog Fosbury. (2021, septiembre 22). <i>El marketing de eventos o cómo crear experiencias memorables. Blog Fosbury.</i> ',
       link:
-        'https://eventosempresa.fosburycafe.es/ideasyconsejos/el-marketing-de-eventos-o-como-crear-experiencias-memorables/ ',
+        'https://eventosempresa.fosburycafe.es/ideasyconsejos/el-marketing-de-eventos-o-como-crear-experiencias-memorables/',
     },
     {
       referencia:
-        'Página web | Hazelton, J. (2020, abril 28). <i>Marketing</i> experiencial – 4 ejemplos de marcas que acertaron. Eventtia. ',
+        'Página web | Hazelton, J. (2020, abril 28). <i>Marketing experiencial – 4 ejemplos de marcas que acertaron.</i> Eventtia. ',
       link:
         'https://www.eventtia.com/es/blog/marketing-experiencial-4-ejemplos-de-marcas-que-acertaron ',
     },

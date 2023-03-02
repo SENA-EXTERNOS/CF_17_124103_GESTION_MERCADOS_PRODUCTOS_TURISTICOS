@@ -15,22 +15,13 @@
         p El mundo de los eventos se encuentra internacionalmente caracterizado en el segmento llamado MICE, refiriéndose al turismo de reuniones, incentivos, congresos y exposiciones.
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Vocación turística")
-            ul.lista-ul
-              li
-                i.fas.fa-check
-                | Su actividad se ha convertido en un importante elemento dinamizador de todo tipo de enclaves con vocación turística, actuando con carácter desestacionalizador, aumentando la demanda de servicios de gama alta y también el gasto medio del visitante.
+            p Su actividad se ha convertido en un importante elemento dinamizador de todo tipo de enclaves con vocación turística, actuando con carácter desestacionalizador, aumentando la demanda de servicios de gama alta y también el gasto medio del visitante.
           
           .row(titulo="Escenario turístico")
-            ul.lista-ul
-              li
-                i.fas.fa-check
-                | En el escenario turístico cuando se hace referencia al turismo de negocios, se remite a todas las actividades de dirección, ordenamiento, promoción y venta de congregaciones y eventos.
+            p En el escenario turístico cuando se hace referencia al turismo de negocios, se remite a todas las actividades de dirección, ordenamiento, promoción y venta de congregaciones y eventos.
           
           .row(titulo="Tipos de eventos")
-            ul.lista-ul
-              li
-                i.fas.fa-check
-                | Integra también este tipo de turismo entre otros a congresos, seminarios, conferencias, ferias, convenciones y reuniones de carácter gubernamental, empresarial o social.
+            p Integra también este tipo de turismo entre otros a congresos, seminarios, conferencias, ferias, convenciones y reuniones de carácter gubernamental, empresarial o social.
           
     .row.my-3
       b En la siguiente infografía se detallan las principales características que un evento normalmente debe considerar.
@@ -48,25 +39,24 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            p.mb-0 #[strong según el último #[em ranking] de la Asociación Internacional de Congresos y Convenciones (ICCA), en 2017 Colombia ocupó el lugar 32 entre 168 naciones del mundo y el sexto en Latinoamérica en cantidad de reuniones organizadas, consolidándose como uno de los jugadores más atractivos del sector]
+            p.mb-0 “Según el último #[em #[b ranking]] de la Asociación Internacional de Congresos y Convenciones (ICCA), en 2017 Colombia ocupó el lugar 32 entre 168 naciones del mundo y el sexto en Latinoamérica en cantidad de reuniones organizadas, consolidándose como uno de los jugadores más atractivos del sector” - (El 16 Espectador [EE], 2018).
             i.fas.fa-quote-right
           p - (El 16 Espectador [EE], 2018)
 
     .row.justify-content-center.my-5
       figure
-        img(src="@/assets/curso/temas/tema1/img2.png", alt="alt")
+        img(src="@/assets/curso/temas/tema1/img2.svg", alt="alt")
 
 
     separador
 
-    #t_1_1
 
-    .titulo-segundo.color-acento-contenido.my-5
-      h2 1.1  Gestión administrativa
+    .titulo-tercero.my-5
+      h2 Gestión administrativa
 
 
     .row.my-5
-      p La administración es un área del saber y hacer en la gestión de eventos, las acciones organizadas, ejecutadas y evaluadas del quehacer profesional necesitan de aplicación de herramientas de planificación y control sustentadas por el pensamiento sistémico y la concepción de gestión en la conducción, orientación, instrucción y asistencia de todos los actores que están involucrados.
+      p La administración es un área del saber y hacer en la gestión de eventos. Las acciones organizadas, ejecutadas y evaluadas del quehacer profesional necesitan de aplicación de herramientas de planificación y control sustentadas por el pensamiento sistémico y la concepción de gestión en la conducción, orientación, instrucción y asistencia de todos los actores que están involucrados.
 
     .tarjeta.tarjeta--azul2.bg5.p-5
       PasosB.color-acento-contenido
@@ -160,10 +150,7 @@
           .row.justify-content-center
             .col-lg-4
               h4 Gestión de eventos 
-              ul.lista-ul
-                li
-                  i.fas.fa-check
-                  | Representar los procesos y sus interrelaciones. Aquí identificamos los procesos de la empresa y su relacionamiento según orden de ejecución.
+              p Representar los procesos y sus interrelaciones. Aquí identificamos los procesos de la empresa y su relacionamiento según orden de ejecución.
             .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema1/img8.png', alt='Texto que describa la imagen')
@@ -171,10 +158,7 @@
           .row.justify-content-center
             .col-lg-4
               h4 Cuellos de botella 
-              ul.lista-ul
-                li
-                  i.fas.fa-check
-                  | Identificación de cuellos de botella, repeticiones en los procesos y demoras.
+              p Identificación de cuellos de botella, repeticiones en los procesos y demoras.
             .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
@@ -182,10 +166,7 @@
           .row.justify-content-center
             .col-lg-4
               h4 Límites de procesos 
-              ul.lista-ul
-                li
-                  i.fas.fa-check
-                  | Definición de límites en cada proceso, definición de métricas.
+              p Definición de límites en cada proceso, definición de métricas.
             .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
@@ -193,10 +174,7 @@
           .row.justify-content-center
             .col-lg-4
               h4 Detalles visuales
-              ul.lista-ul.ps-4
-                li
-                  i.fas.fa-check
-                  | Mejoramiento de la comunicación y comprensión de detalles al ser visual.
+              p Mejoramiento de la comunicación y comprensión de detalles al ser visual.
             .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema1/img11.png', alt='Texto que describa la imagen')
@@ -204,10 +182,7 @@
           .row.justify-content-center
             .col-lg-4
               h4 Inicio y fin de evento
-              ul.lista-ul.ps-4
-                li
-                  i.fas.fa-check
-                  | Determinar en el proceso del servicio de eventos dónde empieza y dónde acaba y qué incluye el proceso.
+              p Determinar en el proceso del servicio de eventos dónde empieza y dónde acaba y qué incluye el proceso.
             .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema1/img12.png', alt='Texto que describa la imagen')
@@ -215,10 +190,7 @@
           .row.justify-content-center
             .col-lg-4
               h4 Seguimiento eventos
-              ul.lista-ul.ps-4
-                li
-                  i.fas.fa-check
-                  | Descubrir actividades que creíamos están cubiertas por un tercero y en realidad no tiene un responsable.
+              p Descubrir actividades que creíamos están cubiertas por un tercero y en realidad no tiene un responsable.
             .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema1/img13.png', alt='Texto que describa la imagen')
@@ -226,10 +198,7 @@
           .row.justify-content-center
             .col-lg-4
               h4 Mapa de procesos planeación de eventos
-              ul.lista-ul.ps-4
-                li
-                  i.fas.fa-check
-                  | El mapa de procesos es un marco para la actuación del gestor de eventos; ayuda a no perder la perspectiva, y dar sentido a la forma en la que se presta el servicio, a situar adecuadamente cada elemento, a sacar conclusiones para la mejora continua.
+              p El mapa de procesos es un marco para la actuación del gestor de eventos; ayuda a no perder la perspectiva, y dar sentido a la forma en la que se presta el servicio, a situar adecuadamente cada elemento, a sacar conclusiones para la mejora continua.
             .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema1/img14.png', alt='Texto que describa la imagen')
@@ -260,13 +229,14 @@
           b Diagramas de flujo
 
     .row.justify.content-center.my-5
-      .col-7.col-lg-2.mb-2
-        figure
-          img(src='@/assets/curso/temas/tema1/img16.png', alt='Texto que describa la imagen')
-      
-      .col-lg-10
+      .col-lg-7
         p La acción de planear eventos conlleva entre otros a la sincronización de recursos, tiempos y movimientos; un evento dependiendo de su magnitud requerirá de la gestión de estos recursos en mayor o menor medida. 
         p El diagrama de flujos es una herramienta necesaria que permite visualizar las relaciones y su variación para una serie de acciones que tienen un objetivo común, en la planeación de eventos permite identificar los procesos y actividades requeridas para desarrollar un evento, igualmente facilita la toma de decisiones sobre aspectos logísticos, presupuestales y de otros recursos que se visualizan en la medida que el diagrama muestra la ruta a seguir. 
+      
+      .col-lg-5.mb-2
+        figure
+          img(src='@/assets/curso/temas/tema1/img16.svg', alt='Texto que describa la imagen')
+      
 
     .row.justify.content-center.mt-5
       ul.lista-ul
@@ -350,13 +320,13 @@
             .col-lg-8.my-4
               p El gestor de eventos está llamado a realizar actualización constante de sus conocimientos sobre estas herramientas, en este componente se mencionan algunas, pero en temas tecnológicos siempre hay disponibles soluciones adaptables a las necesidades particulares.
 
-          .row(titulo="Procesador <br>de texto")
+          .row(titulo="Procesador <br> de texto")
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/img20.png', alt='Texto que describa la imagen')
 
             .col-lg-8.my-5
-              p Asiste en el proceso de la escritura, como la presentación de una propuesta de servicio, permitiendo que el escritor no se preocupe por la estética del texto porque por la caja de herramientas que ofrece facilita la rápida edición de este. Algunos ejemplos son #[i Word, Docs].
+              p Asiste en el proceso de la escritura, como la presentación de una propuesta de servicio, permitiendo que el escritor no se preocupe por la estética del texto, porque la caja de herramientas que ofrece facilita la rápida edición de este. Algunos ejemplos son Word, Docs.
 
           .row(titulo="Hoja de <br>cálculo")
             .col-lg-4
@@ -380,14 +350,13 @@
                 img(src='@/assets/curso/temas/tema1/img23.png', alt='Texto que describa la imagen')
 
             .col-lg-8.my-5
-              p Permite al gestor de eventos almacenar y consultar textos, hojas de cálculo, imágenes, videos y similares desde un dispositivo con conexión a internet. Así mismo, los usuarios del servicio pueden acceder al mismo tipo de información. Ejemplo de estos servicios, #[i Drive, Dropbox, OneDrive, Amazon Drive].
+              p Permite al gestor de eventos almacenar y consultar textos, hojas de cálculo, imágenes, videos y similares desde un dispositivo con conexión a internet. Asimismo, los usuarios del servicio pueden acceder al mismo tipo de información. Ejemplo de estos servicios, Drive, Dropbox. OneDrive, Amazon Drive.
 
     separador
 
-    #t_1_2
 
-    .titulo-segundo.color-acento-contenido.my-5
-      h2 1.2  Gestión comercial
+    .titulo-tercero.my-5
+      h2 Gestión comercial
     
     .row.justify.content-center.my-5
       p Todas las acciones diseñadas por parte de una empresa cuyo objetivo es dar a conocer la propuesta comercial, se engloban en la gestión comercial de eventos; la satisfacción del cliente y la participación en el mercado son los desafíos para cualquier empresa, conllevando entonces el tener una estrategia clara, implementar un sistema de calidad y el coordinar las actividades comerciales con las diferentes áreas de la organización.
@@ -403,7 +372,7 @@
             
             .col-lg-10
 
-              p La gestión comercial interviene en todas las áreas de una empresa ya que determina volúmenes de producción para cubrir determinada demanda de servicios, comunica los requerimientos del cliente, determina los precios y formas de pago, etc. Una buena gestión comercial trae consigo beneficios para la empresa organizadora de eventos tales como:
+              p La gestión comercial interviene en todas las áreas de una empresa, ya que determina volúmenes de producción para cubrir determinada demanda de servicios, comunica los requerimientos del cliente, determina los precios y formas de pago, etc. Una buena gestión comercial trae consigo beneficios para la empresa organizadora de eventos tales como:
               ul.lista-ul
                 li
                   i.fas.fa-check
@@ -438,13 +407,11 @@
               ul.lista-ul
                 li
                   i.fas.fa-check
-                  | #[strong Análisis situacional]
+                  | Análisis situacional
                 li
                   i.fas.fa-check
-                  | #[strong Realizar un análisis de mercado]
-                li
-                  i
-                  | Conocer el entorno, la situación actual del mercado en el que actúa la empresa y su posición con respecto a la competencia. Este análisis implica el conocimiento del público objetivo y toda la información clave para delimitar el segmento a analizar.
+                  | Realizar un análisis de mercado
+              p Conocer el entorno, la situación actual del mercado en el que actúa la empresa y su posición con respecto a la competencia. Este análisis implica el conocimiento del público objetivo y toda la información clave para delimitar el segmento a analizar.
 
         .tarjeta.tarjeta--rosa.p-5(titulo="Fijar objetivos")
           .row.justify-content-center
@@ -462,7 +429,7 @@
                 img(src='@/assets/curso/temas/tema1/img27.png', alt='Texto que describa la imagen')
             
             .col-lg-10
-              p Además de sus propiedades, características físicas y funcionalidades básicas, es saber la necesidad que cubre y lo que motiva al cliente para adquirirlo.
+              p El gestor comercial debe conocer el producto, desde sus propiedades, características físicas y funcionalidades básicas, hasta saber la necesidad que cubre y aquello que motiva al cliente a adquirirlo.
 
         .tarjeta.tarjeta--rosa.p-5(titulo="Estructurar un plan de <b><i>marketing</i></b>")
           .row.justify-content-center
@@ -516,7 +483,7 @@
                 img(src='@/assets/curso/temas/tema1/img33.png', alt='Texto que describa la imagen')
             
             .col-lg-10
-              p En ese sentido, el #[strong #[i marketing]] digital, está orientado a establecer una relación directa entre la empresa y el consumidor mediante el uso de los diferentes canales de comunicación, para lograr este objetivo, esta disciplina se apoya en diferentes técnicas para que el usuario de internet tenga la información justa y necesaria de nuestra empresa.
+              p El #[i marketing] digital, está orientado a establecer una relación directa entre la empresa y el consumidor mediante el uso de diferentes canales de comunicación, para lograr este objetivo, esta disciplina se apoya en diferentes técnicas para que el usuario de internet tenga la información justa y necesaria de nuestra empresa.
 
     .row.justify.content-center.my-5
       ul.lista-ul
@@ -555,7 +522,7 @@
                 img(src='@/assets/curso/temas/tema1/img39.png', alt='Texto que describa la imagen')
             
             .col-lg-7
-              p Por lo tanto, una de las secciones más relevantes que atañe a toda organización, es la correcta definición de objetivos, ya que respecto a lo que queremos lograr, es como podemos analizar nuestra situación, proyectarla y tomar acción. Pero recuerde que el establecimiento es solo el inicio, lo verdaderamente importante de los objetivos es cumplirlos.
+              p Una de las secciones más relevantes que atañe a toda organización, es la correcta definición de objetivos, ya que respecto a lo que queremos lograr, es cómo podemos analizar nuestra situación, proyectarla y tomar acción. Pero recuerde que el establecimiento es solo el inicio, lo verdaderamente importante de los objetivos es cumplirlos.
 
         .py-4.py-md-5(titulo="Metas" :icono="require('@/assets/curso/temas/tema1/img40.png')")
           .row
@@ -583,49 +550,49 @@
                 img(src='@/assets/curso/temas/tema1/img45.png', alt='Texto que describa la imagen')
             
             .col-lg-7
-              p Esto quiere decir que cada objetivo que planteemos debe cumplir todas las características mencionadas.
+              p Cada objetivo que planteemos debe cumplir con todas las características mencionadas.
               ul.lista-ul
                 li
                   i.fas.fa-check
-                  | Ser específico
+                  | Ser específico.
                 li
                   i.fas.fa-check
-                  | Ser medible
+                  | Ser medible.
                 li
                   i.fas.fa-check
-                  | Ser alcanzable
+                  | Ser alcanzable.
                 li
                   i.fas.fa-check
-                  | Ser relevante
+                  | Ser relevante.
                 li
                   i.fas.fa-check
-                  | Tener un marco de tiempo definido
+                  | Tener un marco de tiempo definido.
 
-        .py-4.py-md-5(titulo="Objetivos <i>SMART</i>" :icono="require('@/assets/curso/temas/tema1/img46.png')")
+        .py-4.py-md-5(titulo="Objetivos SMART" :icono="require('@/assets/curso/temas/tema1/img46.png')")
           .row
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/img47.png', alt='Texto que describa la imagen')
             
             .col-lg-7
-              h4 Establecer objetivos #[strong #[i SMART]] 
-              p Para lograr el cometido de establecer objetivos claros, pero sobre todo realistas y cumplibles, nos apoyaremos en la técnica #[strong #[i SMART]] (Jiménez Vida, 2021), que proviene de un acrónimo en inglés que significa:  
+              h4 Establecer objetivos #[strong SMART] 
+              p Para lograr el cometido de establecer objetivos claros, pero sobre todo realistas y cumplibles, nos apoyaremos en la técnica #[i #[b SMART]] (Jiménez Vida, 2021), que proviene de un acrónimo en inglés que significa:
               ul.lista-ul
                 li
                   i.fas.fa-check
-                  | S: #[strong #[i specific]] : específico
+                  | S: #[strong #[i specific]] : específico.
                 li
                   i.fas.fa-check
-                  | M: #[strong #[i measurable]] : medible
+                  | M: #[strong #[i measurable]] : medible.
                 li
                   i.fas.fa-check
-                  | A: #[strong #[i attainable]] : alcanzable
+                  | A: #[strong #[i attainable]] : alcanzable.
                 li
                   i.fas.fa-check
-                  | R: #[strong #[i relevant]] : relevante
+                  | R: #[strong #[i relevant]] : relevante.
                 li
                   i.fas.fa-check
-                  | T: #[strong #[i time based]] : limitado en el tiempo
+                  | T: #[strong #[i time based]] : limitado en el tiempo.
 
     .row.justify.content-center.my-5
       .col-lg-6
@@ -633,22 +600,20 @@
           li
             i.fas.fa-square
             b Estrategias competitivas
-        p Primero se define  que es una estrategia y posteriormente se  aprenden unos pasos para establecerlas.
-        p Según el diccionario de la Real Academia de la lengua española, estrategia es:
-        ol.lista-ol--cuadro
-          li 
-            .lista-ol--cuadro__vineta
-              span 1
-            | Arte de dirigir las operaciones militares.
-          li 
-            .lista-ol--cuadro__vineta
-              span 2
+
+        p Según el diccionario de la Real Academia de la lengua española, una estrategia es:
+
+        ul.lista-ul
+          li
+            i.fas.fa-check
+            | Arte de dirigir las operaciones militares. 
+          li
+            i.fas.fa-check
             | Arte, traza para dirigir un asunto.
-          li 
-            .lista-ol--cuadro__vineta
-              span 3
+          li
+            i.fas.fa-check
             | En un conjunto de reglas que buscan una decisión óptima en cada momento.
-                   
+
       .col-lg-6
         figure
           img(src='@/assets/curso/temas/tema1/img48.png', alt='Texto que describa la imagen')
@@ -656,7 +621,7 @@
     .row.justify-content-center.my-5
       .col-lg-10
         .cajon.color-acento-botones.p-4
-          p Para ampliar información lo invitamos a ver el documento #[strong Anexo 2. Estrategias competitivas], en el cual se detallan los aspectos y características a considerar en la generación de este tipo de estrategias.
+          p Para ampliar la información lo invitamos a ver el documento #[b Anexo 2. Estrategias competitivas], en el cual se detallan los aspectos y características a considerar en la generación de este tipo de estrategias.
           .row
             .col-lg-6
               a.anexo.mb-4(:href="obtenerLink('/downloads/anexo-2_estrategias_competitivas.pdf')" target="_blank")
@@ -681,7 +646,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema1/img49.png', alt='Texto que describa la imagen') 
                 .col-lg-8
-                  h4 P5 Personas
+                  h4 Personas (P5)
                   p Como parte del concepto de humanización del servicio, el recurso humano es un elemento fundamental, en el trato con el consumidor y como resultado de este en la gestión de ventas del producto o servicio. En la industria turística, un servicio enfocado a personas es aún más relevante, cuesta trabajo imaginar una empresa turística que realiza eventos sin personal que garantice que el servicio se preste como está planeado. En todas las industrias, y en especial en la que nos atañe, la asistencia al cliente, el servicio posventa, la interacción con telemercadeo y por las redes sociales, son ejemplos donde el cliente entra en contacto con una persona. Es por ende, la formación de estos en el manejo y afinidad con el cliente lo que marca la diferencia en el servicio al cliente y su posicionamiento.          
 
             .cajon.tarjeta--rosa2.p-4
@@ -690,7 +655,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema1/img50.png', alt='Texto que describa la imagen') 
                 .col-lg-8
-                  h4 P6 Procesos
+                  h4 Procescos (P6)
                   p Centrado en la forma de prestación del servicio, entonces es posible afirmar que una definición de los procesos, coherente con la calidad que se desea brindar, es el primer paso para asegurar un trato amable, rápido e igualitario para todos. Está probado que los procesos bien estructurados aumentan las tasas de captación y retención de clientes, así que trabajar en su definición, no solo ayuda al posicionamiento, sino que además optimiza costos y maximiza la capacidad de respuesta.
 
             .cajon.tarjeta--rosa1.p-4
@@ -699,7 +664,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema1/img51.png', alt='Texto que describa la imagen') 
                 .col-lg-8
-                  h5 P7 Evidencia física
+                  h5 Evidencia física (P7)
                   p Todos los elementos del entorno de una organización deben proporcionar un ambiente acogedor al cliente. Para la industria de los eventos se ponen de manifiesto tópicos como equipos, instalaciones, uniformes, identidad visual. Inclusive podemos mencionar nuevas tendencias como el #[i marketing] olfativo o sensorial, cuyo objeto es crear o reforzar una experiencia positiva de cara al cliente, a través de los sentidos. Si lo contextualizamos, podremos ver que esta idea en particular toca con bastante intensidad al sector de eventos.
 
           .col-2
@@ -708,10 +673,9 @@
 
     separador
 
-    #t_1_3
 
-    .titulo-segundo.color-acento-contenido.my-5
-      h2 1.3  Comunicación comercial
+    .titulo-tercero.my-5
+      h2 Comunicación comercial
 
     .row.justify-content-center.my-5
       .col-lg-10
@@ -728,7 +692,7 @@
     .row.justify-content-center.my-5
       .col-lg-10
         .cajon.color-acento-botones.p-4
-          p Para ampliar revise el #[strong Anexo 3. Comunicación comercial,] donde se detallan los objetivos de un plan de comunicación en eventos y los pasos para realizar un plan de comunicación comercial para eventos.
+          p Para ampliar la información lo invitamos a revisar el #[b Anexo 3. Comunicación comercial], donde se detallan los objetivos de un plan de comunicación en eventos y los pasos para realizar un plan de comunicación comercial para eventos.
           .row
             .col-lg-6
               a.anexo.mb-4(:href="obtenerLink('/downloads/anexo-3_comunicacion_comercial.pdf')" target="_blank")
