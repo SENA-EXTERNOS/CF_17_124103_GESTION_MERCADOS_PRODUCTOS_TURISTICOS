@@ -36,11 +36,9 @@
           p.mt-4 En nuestro país, la industria de eventos viene presentando un crecimiento continuo en la última década: 
 
 
-        .bloque-texto-b.color-secundario.p-4
+        .bloque-texto-b.color-secundario
           .bloque-texto-b__texto
-            i.fas.fa-quote-left
             p.mb-0 “Según el último #[em #[b ranking]] de la Asociación Internacional de Congresos y Convenciones (ICCA), en 2017 Colombia ocupó el lugar 32 entre 168 naciones del mundo y el sexto en Latinoamérica en cantidad de reuniones organizadas, consolidándose como uno de los jugadores más atractivos del sector” - (El 16 Espectador [EE], 2018).
-            i.fas.fa-quote-right
           p - (El 16 Espectador [EE], 2018)
 
     .row.justify-content-center.my-5
