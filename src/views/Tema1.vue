@@ -410,7 +410,7 @@
                 li
                   i.fas.fa-check
                   | Realizar un análisis de mercado.
-              p CConocer el entorno, la situación actual del mercado en el que actúa la empresa y su posición con respecto a la competencia, implica el conocimiento del público objetivo y toda la información clave para delimitar el segmento a analizar.
+              p Conocer el entorno, la situación actual del mercado en el que actúa la empresa y su posición con respecto a la competencia, implica el conocimiento del público objetivo y toda la información clave para delimitar el segmento a analizar.
 
         .tarjeta.tarjeta--rosa.p-5(titulo="Fijar objetivos")
           .row.justify-content-center
