@@ -23,8 +23,8 @@
           .row(titulo="Tipos de eventos")
             p Integra también este tipo de turismo entre otros a congresos, seminarios, conferencias, ferias, convenciones y reuniones de carácter gubernamental, empresarial o social.
           
-    .row.my-3
-      b En la siguiente infografía se detallan las principales características que un evento normalmente debe considerar.
+    
+      
 
 
     .row.justify-content-center.my-3
@@ -39,7 +39,8 @@
         .bloque-texto-b.color-secundario
           .bloque-texto-b__texto
             p.mb-0 “Según el último #[em #[b ranking]] de la Asociación Internacional de Congresos y Convenciones (ICCA), en 2017 Colombia ocupó el lugar 32 entre 168 naciones del mundo y el sexto en Latinoamérica en cantidad de reuniones organizadas, consolidándose como uno de los jugadores más atractivos del sector” - (El 16 Espectador [EE], 2018).
-          p - (El 16 Espectador [EE], 2018)
+    .row.my-3
+    b En la siguiente infografía se detallan las principales características que un evento normalmente debe considerar.       
 
     .row.justify-content-center.my-5
       figure
@@ -246,7 +247,7 @@
       .col-lg-10
         .cajon.color-acento-botones.p-4
           p Son documentos que contienen información detallada, ordenada, sistemática e integral sobre las actividades y responsabilidades que se realizan en un área específica de la organización, teniendo como objetivo el proveer los lineamientos, reglas o normas de cómo utilizar algo de una forma sistemática, explícita y ordenada. 
-          p Para ampliar información lo invitamos a ver el documento #[strong Anexo 1. donde se muestra un Ejemplo procedimiento.]
+          p Para ampliar la información lo invitamos a ver el documento <b>Anexo 1. Ejemplo de procedimiento</b>.
           .row
             .col-lg-6
               a.anexo.mb-4(:href="obtenerLink('/downloads/anexo-1_ejemplo_procedimiento.pdf')" target="_blank")
@@ -254,14 +255,14 @@
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   b Anexo 1.
-                  p Ejemplo procedimiento
+                  p Ejemplo de procedimiento
 
     .row.justify.content-center.my-5
       ul.lista-ul
         li
           i.fas.fa-square
           b Mapa de empatía
-      p A continuación, en el siguiente video se muestra la explicación de lo que significa un mapa de empatía y sus características.
+      p A continuación, lo invitamos a ver el video donde se explica qué es un mapa de empatía y sus características.
 
     .row.my-5
       figure
@@ -324,7 +325,7 @@
                 img(src='@/assets/curso/temas/tema1/img20.png', alt='Texto que describa la imagen')
 
             .col-lg-8.my-5
-              p Asiste en el proceso de la escritura, como la presentación de una propuesta de servicio, permitiendo que el escritor no se preocupe por la estética del texto, porque la caja de herramientas que ofrece facilita la rápida edición de este. Algunos ejemplos son Word, Docs.
+              p Asiste en el proceso de la escritura, como la presentación de una propuesta de servicio, permitiendo que el escritor no se preocupe por la estética del texto, porque la caja de herramientas que ofrece facilita la rápida edición de este. Algunos ejemplos son Word, Docs, entre otros.
 
           .row(titulo="Hoja de <br>cálculo")
             .col-lg-4
@@ -348,7 +349,7 @@
                 img(src='@/assets/curso/temas/tema1/img23.png', alt='Texto que describa la imagen')
 
             .col-lg-8.my-5
-              p Permite al gestor de eventos almacenar y consultar textos, hojas de cálculo, imágenes, videos y similares desde un dispositivo con conexión a internet. Asimismo, los usuarios del servicio pueden acceder al mismo tipo de información. Ejemplo de estos servicios, Drive, Dropbox. OneDrive, Amazon Drive.
+              p Permite al gestor de eventos almacenar y consultar textos, hojas de cálculo, imágenes, videos y similares desde un dispositivo con conexión a internet. Asimismo, los usuarios del servicio pueden acceder al mismo tipo de información. Ejemplo de estos servicios son Drive, Dropbox. OneDrive y Amazon Drive.
 
     separador
 
@@ -405,11 +406,11 @@
               ul.lista-ul
                 li
                   i.fas.fa-check
-                  | Análisis situacional
+                  | Análisis situacional.
                 li
                   i.fas.fa-check
-                  | Realizar un análisis de mercado
-              p Conocer el entorno, la situación actual del mercado en el que actúa la empresa y su posición con respecto a la competencia. Este análisis implica el conocimiento del público objetivo y toda la información clave para delimitar el segmento a analizar.
+                  | Realizar un análisis de mercado.
+              p CConocer el entorno, la situación actual del mercado en el que actúa la empresa y su posición con respecto a la competencia, implica el conocimiento del público objetivo y toda la información clave para delimitar el segmento a analizar.
 
         .tarjeta.tarjeta--rosa.p-5(titulo="Fijar objetivos")
           .row.justify-content-center
@@ -503,14 +504,14 @@
             .col-lg-7
               p Para llevar a cabo el análisis de los posibles escenarios proyectados, pueden existir varias alternativas, pero todas ellas empiezan con un diagnóstico situacional que permita la realización de una predicción que muestre la viabilidad y el progreso esperado, tanto a nivel propio, como de los principales competidores, especificando las conclusiones a las que se ha llegado.
 
-        .py-4.py-md-5(titulo="Objetivos" :icono="require('@/assets/curso/temas/tema1/img36.png')")
+        .py-4.py-md-5(titulo="Establecimiento de objetivos" :icono="require('@/assets/curso/temas/tema1/img36.png')")
           .row
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/img37.png', alt='Texto que describa la imagen')
             
             .col-lg-7
-              h4 Establecimiento de objetivos
+
               p Siempre debemos tener presente, que los objetivos son referencias parciales que se deben alcanzar para lograr una meta mayor que está asociada al crecimiento sostenible del negocio.
 
         .py-4.py-md-5(titulo="Cumplimiento de objetivos" :icono="require('@/assets/curso/temas/tema1/img38.png')")
@@ -520,7 +521,7 @@
                 img(src='@/assets/curso/temas/tema1/img39.png', alt='Texto que describa la imagen')
             
             .col-lg-7
-              p Una de las secciones más relevantes que atañe a toda organización, es la correcta definición de objetivos, ya que respecto a lo que queremos lograr, es cómo podemos analizar nuestra situación, proyectarla y tomar acción. Pero recuerde que el establecimiento es solo el inicio, lo verdaderamente importante de los objetivos es cumplirlos.
+              p Aunque la definición de los objetos en una organización se reviste de gran importancia, es solo el inicio, ya que el cumplimiento de las metas propuestas es lo que le da sentido real a la empresa llevando a materializar todo lo que se planea y proyecta.
 
         .py-4.py-md-5(titulo="Metas" :icono="require('@/assets/curso/temas/tema1/img40.png')")
           .row
@@ -631,7 +632,7 @@
 
     .row.justify-content-center.my-5
       .col-lg-10
-        p A principios de los años 80’s los autores, Bernard Booms y Mary Bitner extendieron el marketing mix del modelo conocido tradicional de las 4P’s de McCarthy, a un modelo de 7P’s. 
+        p A principios de los años 80’s los autores Bernard Booms y Mary Bitner extendieron el <em>marketing mix</em> del modelo conocido tradicional de las 4P’s (planteado por McCarthy), a un modelo de 7P’s. 
         p Ellos incorporaron tres nuevos elementos como son: personas (#[strong #[i people]]), procesos (#[strong #[i process]]) y evidencia física (#[strong #[i physical evidence]]). Según explican los autores, esta extensión del modelo se enfocó en la humanización del servicio al tratar temas como las políticas de atención al cliente y una mayor interacción e información con el cliente. 
 
     .row.justify-content-center.my-5
@@ -653,7 +654,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema1/img50.png', alt='Texto que describa la imagen') 
                 .col-lg-8
-                  h4 Procescos (P6)
+                  h4 Procesos (P6)
                   p Centrado en la forma de prestación del servicio, entonces es posible afirmar que una definición de los procesos, coherente con la calidad que se desea brindar, es el primer paso para asegurar un trato amable, rápido e igualitario para todos. Está probado que los procesos bien estructurados aumentan las tasas de captación y retención de clientes, así que trabajar en su definición, no solo ayuda al posicionamiento, sino que además optimiza costos y maximiza la capacidad de respuesta.
 
             .cajon.tarjeta--rosa1.p-4
@@ -690,7 +691,7 @@
     .row.justify-content-center.my-5
       .col-lg-10
         .cajon.color-acento-botones.p-4
-          p Para ampliar la información lo invitamos a revisar el #[b Anexo 3. Comunicación comercial], donde se detallan los objetivos de un plan de comunicación en eventos y los pasos para realizar un plan de comunicación comercial para eventos.
+          p Para ampliar la información lo invitamos a revisar el <b>Anexo 3. Comunicación comercial</b>, donde se detallan los objetivos y pasos para realizar un plan de comunicación comercial para eventos.
           .row
             .col-lg-6
               a.anexo.mb-4(:href="obtenerLink('/downloads/anexo-3_comunicacion_comercial.pdf')" target="_blank")

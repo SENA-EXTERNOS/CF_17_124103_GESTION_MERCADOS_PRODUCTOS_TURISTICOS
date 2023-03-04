@@ -34,10 +34,10 @@
     separador
 
     .titulo-tercero.my-5
-      h2 Clasificación
+      h2 Clasificación de los eventos
 
     .row.justify-content-center.my-5
-      p A continuación se invita a revisar la clasificación más común sobre eventos y sus características diferenciadoras.
+      p A continuación, se invita a revisar la clasificación más común sobre eventos y sus características diferenciadoras.
       p Los eventos se clasifican principalmente de acuerdo con la actividad a desarrollarse así: 
 
     .row.my-5
@@ -58,7 +58,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img4.png', alt='Texto que describa la imagen')
 
-        .row(titulo="Eventos musicales y/o Culturales")
+        .row(titulo="Eventos musicales y/o culturales")
           .col-lg-6.mb-4.mb-lg-0
             p Son eventos que dependen de su contenido y con ello variará la complejidad en la organización, logística, presupuesto, etc. Por lo tanto, podría ser un pequeño concierto o un gran festival internacional. Adicionalmente pueden ser organizados por entidades públicas o privadas.
 
@@ -68,7 +68,7 @@
 
         .row(titulo="Eventos virtuales")
           .col-lg-6.mb-4.mb-lg-0
-            p Son una de las más nuevas tendencias en el sector de los eventos, que al igual que los otros tienen como objetivo reunir personas, pero como gran diferencial en un entorno virtual. 
+            p Son una de las más nuevas tendencias en el sector de los eventos, que al igual que los otros tienen como objetivo reunir personas, pero, como gran diferencial, se realiza en un entorno virtual. 
             p Los eventos virtuales más conocidos actualmente son las ferias, conferencias, reuniones de ventas, entre otros.
 
           .col-lg-6
@@ -77,7 +77,7 @@
 
         .row(titulo="Fiesta")
           .col-lg-6.mb-4.mb-lg-0
-            p Para el evento fiesta, la cual es un rito social, compartido entre un grupo de personas, donde se marca un cierto acontecimiento a modo de celebración.  Se integra con una presentación artística, baile, espectáculos, entre otros, también se debe considerar su alto costo para la ejecución y el control de asistentes.
+            p Para el evento fiesta, el cual es un rito social compartido entre un grupo de personas donde se marca un cierto acontecimiento a modo de celebración, se integra una presentación artística, baile, espectáculos, entre otros. Se debe considerar su alto costo para la ejecución y el control de asistentes.
 
           .col-lg-6
             figure
@@ -109,7 +109,7 @@
       h2 Escenarios
 
     .row.justify-content-center.my-5
-      p Elegir un escenario o espacio para realizar un evento es una responsabilidad que requiere conocimiento detallado sobre los aspectos necesarios y que influyen en su realización.
+      p Elegir un escenario o espacio para realizar un evento es una responsabilidad que requiere conocimiento detallado sobre los aspectos necesarios y que influyen en su realización. Los más significativos son:
 
     .row.justify-content-center.my-5
       TabsC.color-acento-contenido
@@ -148,12 +148,8 @@
     .titulo-segundo.color-acento-contenido.my-5
       h2 Planeación de eventos 
 
-    .row.justify.content-center.my-5
-      .col-lg-6
-        ul.lista-ul
-          li
-            i.fas.fa-square
-            b Aspectos de la planeación de eventos
+    .row.justify-content-center.my-5
+      p Existen diferentes aspectos que se deben tener en cuenta al momento de planear un evento para garantizar su éxito a través de la correcta logística y alcance de los objetivos.
 
     .row.justify.content-center.my-5
       TabsA.color-acento-contenido
@@ -224,7 +220,7 @@
             p El estatuto contempla en su capítulo 5: “De las ventas que utilizan métodos no tradicionales o a distancia”, las normas a cumplir por parte de los establecimientos de comercio en línea.
 
           .row(titulo="Estatuto del consumidor")
-            p Una vez revisado el estatuto del consumidor, es necesario analizar las normas que se establecen en la “ley 527 de 1999: Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones”.
+            p Una vez revisado el estatuto del consumidor, es necesario analizar las normas que se establecen en la “Ley 527 de 1999: Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones”.
 
       .col-9.col-lg-4.mb-3
         figure
@@ -272,7 +268,7 @@
             br
             p Con acciones bien diseñadas en el tiempo, se consigue el objetivo de la logística, el cual es aumentar la eficiencia de los recursos a usar con el propósito de cumplir con lo planeado cubriendo las necesidades establecidas, conduciendo a la satisfacción de nuestros públicos: clientes, asistentes y proveedores.
 
-        p.my-4 Para ampliar información lo invitamos a revisar el #[strong Anexo 6. Logística de eventos,] donde encontrará los diversos tipos de montajes para la realización de eventos, montajes que estructuran  según la naturaleza del evento.
+        p.my-4 Para ampliar información lo invitamos a revisar el #[strong Anexo 6. Logística de eventos,] donde encontrará los diversos tipos de montajes para la realización de eventos.
 
         .col-lg-6
           a.anexo.mb-4(:href="obtenerLink('/downloads/anexo-6_logistica_de_eventos.pdf')" target="_blank")
@@ -305,7 +301,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img16.png', alt='Texto que describa la imagen')
           .col-lg-10
-            p.mt-4 Para este caso se debe proyectar un presupuesto de acuerdo con una planificación general, a necesidades específicas, y a objetivos preestablecidos. Se debe estimar de la manera más realista, las posibilidades de recuperación de esos costos, o eventuales ganancias que reporte el evento. (Wong, 2019).
+            p.mt-4 Para este caso se debe proyectar un presupuesto, de acuerdo con una planificación general, a necesidades específicas y a objetivos preestablecidos. Se debe estimar, de la manera más realista, las posibilidades de recuperar los costos, o eventuales ganancias que reporte el evento. (Wong, 2019).
 
         .row.justify-content-center(titulo="Evento adaptado al presupuesto (limitados)")
           .col-5.col-lg-2

@@ -140,7 +140,7 @@ export default {
     {
       termino: '<i>Stand<i>',
       significado:
-        'espacio de exhibición en una feria o exposición que consta de una superficie determinada de piso de exposición y mamparas que lo separan de otros stands además de un rótulo de identificación.',
+        'espacio de exhibición en una feria o exposición que consta de una superficie determinada de piso de exposición y mamparas que lo separan de otros <em>stand</em> además de un rótulo de identificación.',
     },
     {
       termino: 'Mapa de procesos',
@@ -176,78 +176,78 @@ export default {
   referencias: [
     {
       referencia:
-        'Libro | Acosta, R. (2009). <i>Flujograma</i>. El Cid Editor | apuntes.',
+        'Acosta, R. (2009). <i>Flujograma</i>. El Cid Editor | apuntes.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/28942 ',
     },
     {
       referencia:
-        'Libro | Business Review, H. & Merino Gómez, B. (Trad.). (2018). <i>Empatía.</i> Editorial Reverté.',
+        'Business Review, H. & Merino Gómez, B. (Trad.). (2018). <i>Empatía.</i> Editorial Reverté.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/128587 ',
     },
     {
       referencia:
-        'Página web | Bantu Group. (2020, June 25). <i>Las 5 ventajas del análisis de datos para mejorar la experiencia del cliente.</i> Bantu Group. Retrieved September 7, 2022, obtenido de ',
+        'Bantu Group. (2020, June 25). <i>Las 5 ventajas del análisis de datos para mejorar la experiencia del cliente.</i> Bantu Group. Retrieved September 7, 2022, obtenido de ',
       link:
         'https://www.bantugroup.com/blog/ventajas-del-analisis-de-datos-para-mejorar-la-experiencia-del-cliente',
     },
     {
       referencia:
-        'Libro | Comunicare. (2022, August 26). <i>Plan de comunicación comercial: lo que necesitas saber - Comunicare.</i> COMUNICARE, Márketing Online. Retrieved September 7, 2022, obtenido de ',
+        'Comunicare. (2022, August 26). <i>Plan de comunicación comercial: lo que necesitas saber - Comunicare.</i> COMUNICARE, Márketing Online. Retrieved September 7, 2022, obtenido de ',
       link: 'https://www.comunicare.es/plan-de-comunicacion-comercial/',
     },
     {
       referencia:
-        'Página web | El Espectador. (30 de octubre de 2018). <i>El Espectador.</i> (Redacción Comercial) Recuperado el 10 de abril de 2019, de El Espectador:',
+        'El Espectador. (30 de octubre de 2018). <i>El Espectador.</i> (Redacción Comercial) Recuperado el 10 de abril de 2019, de El Espectador:',
       link:
         'https://www.elespectador.com/actualidad/los-eventos-empresariales-una-industria-en-crecimiento-article-820835/#:~:text=Los%20eventos%20empresariales%20una%20industria%20en%20crecimiento',
     },
     {
       referencia:
-        'Página web | Colaborador Blog Fosbury. (2021, septiembre 22). <i>El marketing de eventos o cómo crear experiencias memorables. Blog Fosbury.</i> ',
+        'Colaborador Blog Fosbury. (2021, septiembre 22). <i>El marketing de eventos o cómo crear experiencias memorables. Blog Fosbury.</i> ',
       link:
         'https://eventosempresa.fosburycafe.es/ideasyconsejos/el-marketing-de-eventos-o-como-crear-experiencias-memorables/',
     },
     {
       referencia:
-        'Página web | Hazelton, J. (2020, abril 28). <i>Marketing experiencial – 4 ejemplos de marcas que acertaron.</i> Eventtia. ',
+        'Hazelton, J. (2020, abril 28). <i>Marketing experiencial – 4 ejemplos de marcas que acertaron.</i> Eventtia. ',
       link:
         'https://www.eventtia.com/es/blog/marketing-experiencial-4-ejemplos-de-marcas-que-acertaron ',
     },
     {
       referencia:
-        'Documento web - trabajo de grado. | Moreira Quesada, E. D. (2015). <i>UNIVERSIDAD TÉCNICA DE MACHALA UNIDAD ACADÉMICA DE CIENCIAS EMPRESARIALES CARRERA DE ADMINISTRACIÓN DE HOTELERÍA Y TURISMO T.</i> Repositorio Digital de la UTMACH. Retrieved September 7, 2022, obtenido de ',
+        'Moreira Quesada, E. D. (2015). <i>UNIVERSIDAD TÉCNICA DE MACHALA UNIDAD ACADÉMICA DE CIENCIAS EMPRESARIALES CARRERA DE ADMINISTRACIÓN DE HOTELERÍA Y TURISMO T.</i> Repositorio Digital de la UTMACH. Retrieved September 7, 2022, obtenido de ',
       link:
         'http://repositorio.utmachala.edu.ec/bitstream/48000/5467/1/ECUACE-2015-HT-CD00032.pdf ',
     },
     {
       referencia:
-        'Página web | Rankmi. (2019, February 20). <i>Estrategias prácticas para vencer a tus competidores en 2019.</i> Rankmi. Retrieved September 7, 2022, from',
+        'Rankmi. (2019, February 20). <i>Estrategias prácticas para vencer a tus competidores en 2019.</i> Rankmi. Retrieved September 7, 2022, from',
       link:
         'https://www.rankmi.com/blog/estrategias-practicas-para-vencer-a-tus-competidores-en-2019 ',
     },
     {
       referencia:
-        'Página web | Reier, R. (2020, July 29). <i>Ricardo Reier: <i>“La transformación digital no es una opción, es una necesidad” - Ucavila.</i> UCAV. Retrieved September 7, 2022, obtenido de',
+        'Reier, R. (2020, July 29). <i>Ricardo Reier: <i>“La transformación digital no es una opción, es una necesidad” - Ucavila.</i> UCAV. Retrieved September 7, 2022, obtenido de',
       link:
         'https://www.ucavila.es/noticias/noticias/ricardo-reier-la-transformacion-digital-no-es-ya-una-opcion-es-una-necesidad/ ',
     },
     {
       referencia:
-        'Página web | Rovira, B. (2021, December 8). ᐅ <i>Transformación digital: Proceso, pasos a seguir y retos.</i> InboundCycle. Retrieved September 7, 2022, obtenido de ',
+        'Rovira, B. (2021, December 8). ᐅ <i>Transformación digital: Proceso, pasos a seguir y retos.</i> InboundCycle. Retrieved September 7, 2022, obtenido de ',
       link:
         'https://www.inboundcycle.com/blog-de-inbound-marketing/transformacion-digital-retos ',
     },
     {
       referencia:
-        'Página web | Universidad Tecnológica del Perú. (2021, November 5). <i>Estrategias competitivas: ¿cómo funcionan?</i> Escuela de Postgrado UTP. Retrieved September 7, 2022, obtenido de ',
+        'Universidad Tecnológica del Perú. (2021, November 5). <i>Estrategias competitivas: ¿cómo funcionan?</i> Escuela de Postgrado UTP. Retrieved September 7, 2022, obtenido de ',
       link:
         'https://www.postgradoutp.edu.pe/blog/a/estrategias-competitivas-como-funcionan-y-como-se-adaptan-a-los-tiempos-de-cambio/ ',
     },
     {
       referencia:
-        'Página web | Wong, M. (2019, April 18). <i>Cómo desarrollar un presupuesto de evento para tu reunión o evento.</i> EventMobi. Retrieved September 7, 2022, obtenido de ',
+        'Wong, M. (2019, April 18). <i>Cómo desarrollar un presupuesto de evento para tu reunión o evento.</i> EventMobi. Retrieved September 7, 2022, obtenido de ',
       link:
         'https://www.eventmobi.com/es/blog/como-desarrollar-un-presupuesto-de-evento-para-tu-reunion-o-evento/ ',
     },

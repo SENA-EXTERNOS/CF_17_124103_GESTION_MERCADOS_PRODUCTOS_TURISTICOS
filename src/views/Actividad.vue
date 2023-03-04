@@ -19,7 +19,7 @@
             img(src="@/assets/template/arrastrar-soltar.png", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
 
-        p.mb-4.mt-5 Relaciona el tipo de montaje con la imagen que corresponda.
+        p.mb-4.mt-5 Apreciado aprendiz, a continuación, encontrará una actividad que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

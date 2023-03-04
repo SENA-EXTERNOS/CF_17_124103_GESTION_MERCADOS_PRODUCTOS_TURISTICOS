@@ -3,10 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-sexto.titulo-sintesis.my-5
-      h5 Gestión de mercados de productos turísticos
-      br
-      span Síntesis: Planeación de eventos
+    
 
     p Revise la estructura de la información desarrollada a través del siguiente mapa conceptual donde se sintetizan los aspectos más relevantes en la planeación de eventos.
 

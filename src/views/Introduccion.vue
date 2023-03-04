@@ -15,7 +15,7 @@
           img(src="@/assets/curso/temas/introduccion/img1.png", alt="alt")
       .col-lg-7
         p Estimado aprendiz, bienvenido a este componente formativo, el cual describe aspectos a considerar en la planeación de eventos desde la gestión administrativa, la gestión comercial y la comunicación comercial, con el estudio de este componente aprenderá sobre la clasificación de eventos, escenarios, normatividad aplicable en su estructuración a partir de las labores de logística, los recursos y el presupuesto.
-        b En el siguiente video conocerá de forma general, todas las temática que estudiará. ¡Muchos éxitos en este proceso de aprendizaje!
+        b En el siguiente video conocerá de forma general, todas las temáticas que estudiará. ¡Muchos éxitos en este proceso de aprendizaje!
 
 
     .row.my-5
