@@ -250,7 +250,7 @@
           p Para ampliar la información lo invitamos a ver el documento #[b Anexo 1. Ejemplo de procedimiento.] 
           .row
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/anexo-1_ejemplo_procedimiento.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/anexo1_ejemplo_procedimiento.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -623,7 +623,7 @@
           p Para ampliar la información lo invitamos a ver el documento #[b Anexo 2. Estrategias competitivas], en el cual se detallan los aspectos y características a considerar en la generación de este tipo de estrategias.
           .row
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/anexo-2_estrategias_competitivas.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/anexo2_estrategias_competitivas.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -694,7 +694,7 @@
           p Para ampliar la información lo invitamos a revisar el <b>Anexo 3. Comunicación comercial</b>, donde se detallan los objetivos y pasos para realizar un plan de comunicación comercial para eventos.
           .row
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/anexo-3_comunicacion_comercial.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/anexo3_comunicacion_comercial.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
