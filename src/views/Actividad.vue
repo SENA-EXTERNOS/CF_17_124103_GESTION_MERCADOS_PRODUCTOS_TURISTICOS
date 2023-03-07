@@ -9,8 +9,7 @@
       h1 Actividad didáctica  
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      .titulo-segundo.color-acento-contenido
-        h2 Arrastrar y soltar
+
     
     .row.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
@@ -18,14 +17,15 @@
           figure
             img(src="@/assets/template/arrastrar-soltar.png", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-
+        .titulo-segundo.color-acento-contenido
+          h2 Planeación de eventos
         p.mb-4.mt-5 Apreciado aprendiz, a continuación, encontrará una actividad que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Arrastrar y soltar
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad1/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
