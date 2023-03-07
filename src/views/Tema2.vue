@@ -8,28 +8,22 @@
       h1 Eventos
 
     .row.justify-content-center.mt-5
-      .col-lg-10
-        p Para dar inicio cabe hacer énfasis en 2 elementos claves:
+      p Para dar inicio cabe hacer énfasis en 2 elementos claves:
 
-    .row.justify-content-center
-      .col-lg-12
-        .row.justify-content-center.my-5
-          .col-8.col-lg-6.my-3
-            .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-              .indicador--hover(v-if="indicadorTarjetaSlide")
-              .tarjeta-slide__contenedor.p-3
-                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.png')})`}").img1-2-t2
-                .tarjeta-slide__contenido.p-3.p-xl-5
-                  p.text-center La palabra evento proviene del latín #[i «eventus»] que significa acontecimiento, suceso, eventualidad.
-                  p.text-center Un evento es una actividad especial que se realiza fuera de la rutina regular para celebrar un acontecimiento que debe llevar una planificación al menos en cuanto a espacio y tiempo (lugar, fechas, horas), y que se clasifica según su naturaleza.
+    .row.justify-content-center.my-5
+      p ¿Qué es un evento?
+      .col-lg-7.mt-4
+        .cajon.color-acento-contenido.p-4
+          p La palabra evento proviene del latín #[i «eventus»] que significa acontecimiento, suceso, eventualidad. Un evento es una actividad especial que se realiza fuera de la rutina regular para celebrar un acontecimiento que debe llevar una planificación al menos en cuanto a espacio y tiempo (lugar, fechas, horas), y que se clasifica según su naturaleza.
+      
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/temas/tema2/img1.svg', alt='Texto que describa la imagen')
 
+    .row.justify-content-center.my-5
+      p.mb-5 Eventos como relaciones públicas 
+      p Desde el punto de vista del  marketing, un evento es una herramienta de relaciones públicas y comunicación que se convierten en una carta de presentación frente a posibles clientes, medios de comunicación y público en general de una empresa, organización o la misma ciudad con el fin de dar a conocer un lanzamiento de la empresa de nuevos productos y/o servicios, dar a conocer un nuevo elemento de innovación sobre procesos, materiales, etc, resaltar alguna particularidad de la marca, entre otros.
 
-          .col-8.col-lg-6.my-3
-            .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-              .tarjeta-slide__contenedor
-                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img2.png')})`}").img1-2-t2
-                .tarjeta-slide__contenido.p-3.p-xl-5
-                  p.text-center Desde el punto de vista del  #[i marketing], un evento es una herramienta de relaciones públicas y comunicación que se convierten en una carta de presentación frente a posibles clientes, medios de comunicación y público en general de una empresa, organización o la misma ciudad con el fin de dar a conocer un lanzamiento de la empresa de nuevos productos y/o servicios, dar a conocer un nuevo elemento de innovación sobre procesos, materiales, etc, resaltar alguna particularidad de la marca, entre otros. 
 
     separador
 
@@ -85,7 +79,7 @@
 
     .row.my-5
       .cajon.color-acento-contenido.p-4
-        p Promoción comercial: su finalidad es promocionar a las empresas de cualquier sector. Hacen parte de la actividad empresarial de las organizaciones y por tanto de las estrategias de mercadeo.    
+        p Promoción comercial: su finalidad es promocionar a las empresas de cualquier sector. Hacen parte de la actividad empresarial de las organizaciones y por tanto de las estrategias de mercadeo.
 
     .row.justify-content-center.my-5
       .col-5.col-lg-2

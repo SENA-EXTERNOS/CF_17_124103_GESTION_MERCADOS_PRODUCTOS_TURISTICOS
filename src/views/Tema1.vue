@@ -38,7 +38,7 @@
 
         .bloque-texto-b.color-secundario
           .bloque-texto-b__texto
-            p.mb-0 “Según el último #[em #[b ranking]] de la Asociación Internacional de Congresos y Convenciones (ICCA), en 2017 Colombia ocupó el lugar 32 entre 168 naciones del mundo y el sexto en Latinoamérica en cantidad de reuniones organizadas, consolidándose como uno de los jugadores más atractivos del sector” - (El 16 Espectador [EE], 2018).
+            p.mb-0 Según el último #[em #[b ranking]] de la Asociación Internacional de Congresos y Convenciones (ICCA), en 2017 Colombia ocupó el lugar 32 entre 168 naciones del mundo y el sexto en Latinoamérica en cantidad de reuniones organizadas, consolidándose como uno de los jugadores más atractivos del sector - (El 16 Espectador [EE], 2018).
     .row.my-3
     b En la siguiente infografía se detallan las principales características que un evento normalmente debe considerar.       
 
@@ -247,7 +247,7 @@
       .col-lg-10
         .cajon.color-acento-botones.p-4
           p Son documentos que contienen información detallada, ordenada, sistemática e integral sobre las actividades y responsabilidades que se realizan en un área específica de la organización, teniendo como objetivo el proveer los lineamientos, reglas o normas de cómo utilizar algo de una forma sistemática, explícita y ordenada. 
-          p Para ampliar la información lo invitamos a ver el documento <b>Anexo 1. Ejemplo de procedimiento</b>.
+          p Para ampliar la información lo invitamos a ver el documento #[b Anexo 1. Ejemplo de procedimiento.] 
           .row
             .col-lg-6
               a.anexo.mb-4(:href="obtenerLink('/downloads/anexo-1_ejemplo_procedimiento.pdf')" target="_blank")
@@ -632,7 +632,7 @@
 
     .row.justify-content-center.my-5
       .col-lg-10
-        p A principios de los años 80’s los autores Bernard Booms y Mary Bitner extendieron el <em>marketing mix</em> del modelo conocido tradicional de las 4P’s (planteado por McCarthy), a un modelo de 7P’s. 
+        p A principios de los años 80’s los autores Bernard Booms y Mary Bitner extendieron el #[i marketing mix] del modelo conocido tradicional de las 4P’s (planteado por McCarthy), a un modelo de 7P’s.
         p Ellos incorporaron tres nuevos elementos como son: personas (#[strong #[i people]]), procesos (#[strong #[i process]]) y evidencia física (#[strong #[i physical evidence]]). Según explican los autores, esta extensión del modelo se enfocó en la humanización del servicio al tratar temas como las políticas de atención al cliente y una mayor interacción e información con el cliente. 
 
     .row.justify-content-center.my-5
