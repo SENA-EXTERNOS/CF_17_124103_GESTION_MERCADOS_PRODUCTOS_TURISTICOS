@@ -89,7 +89,7 @@
         p Para ampliar información lo invitamos a revisar el #[strong Anexo 3.1. Promoción comercial de eventos], donde se describen tipos de eventos, su definición y entidad que lo promueve.
         .row
           .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('/downloads/anexo3.1_promocion_comercial_eventos.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/anexos/anexo_3.1.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -129,7 +129,7 @@
           p Para ampliar información lo invitamos a revisar el #[strong Anexo 4. Escenarios,] el cual presenta los diversos escenarios sobre los cuales se desarrollan eventos, a partir de su naturaleza.
           .row
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/anexo4_escenarios.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/anexos/anexo_4.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -180,7 +180,7 @@
           p Para ampliar información lo invitamos a revisar #[strong Anexo 5. Planeación de eventos,] en este documento encuentra información sobre los factores a considerar en una planeación de eventos y sus etapas. 
           .row
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/anexo5_planeacion_de_eventos.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/anexos/anexo_5.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -237,7 +237,7 @@
         p Para ampliar información lo invitamos a revisar el #[strong anexo 5.1. Recursos del evento], allí encuentra los recursos mínimos y más usados en la planeación de eventos.
 
         .col-lg-8
-          a.anexo.mb-4(:href="obtenerLink('/downloads/anexo5.1_recursos_del_evento.pdf')" target="_blank")
+          a.anexo.mb-4(:href="obtenerLink('/downloads/anexos/anexo_5.1.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
@@ -265,7 +265,7 @@
         p.my-4 Para ampliar información lo invitamos a revisar el #[strong Anexo 6. Logística de eventos,] donde encontrará los diversos tipos de montajes para la realización de eventos.
 
         .col-lg-6
-          a.anexo.mb-4(:href="obtenerLink('/downloads/anexo6_logistica_de_eventos.pdf')" target="_blank")
+          a.anexo.mb-4(:href="obtenerLink('/downloads/anexos/anexo_6.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
