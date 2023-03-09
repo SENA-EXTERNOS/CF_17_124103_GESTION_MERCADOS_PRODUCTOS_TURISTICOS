@@ -22,7 +22,7 @@
 
     .row.justify-content-center.my-5
       p.mb-5 Eventos como relaciones públicas 
-      p Desde el punto de vista del  marketing, un evento es una herramienta de relaciones públicas y comunicación que se convierten en una carta de presentación frente a posibles clientes, medios de comunicación y público en general de una empresa, organización o la misma ciudad con el fin de dar a conocer un lanzamiento de la empresa de nuevos productos y/o servicios, dar a conocer un nuevo elemento de innovación sobre procesos, materiales, etc, resaltar alguna particularidad de la marca, entre otros.
+      p Desde el punto de vista del  <em>marketing</em>, un evento es una herramienta de relaciones públicas y comunicación que se convierten en una carta de presentación frente a posibles clientes, medios de comunicación y público en general de una empresa, organización o la misma ciudad con el fin de dar a conocer un lanzamiento de la empresa de nuevos productos y/o servicios, dar a conocer un nuevo elemento de innovación sobre procesos, materiales, etc, resaltar alguna particularidad de la marca, entre otros.
 
 
     separador
