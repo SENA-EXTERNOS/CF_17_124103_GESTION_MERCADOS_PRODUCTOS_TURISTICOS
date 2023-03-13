@@ -11,7 +11,7 @@
       p Para dar inicio cabe hacer énfasis en 2 elementos claves:
 
     .row.justify-content-center.my-5
-      p ¿Qué es un evento?
+      h4 ¿Qué es un evento?
       .col-lg-7.mt-4
         .cajon.color-acento-contenido.p-4
           p La palabra evento proviene del latín #[i «eventus»] que significa acontecimiento, suceso, eventualidad. Un evento es una actividad especial que se realiza fuera de la rutina regular para celebrar un acontecimiento que debe llevar una planificación al menos en cuanto a espacio y tiempo (lugar, fechas, horas), y que se clasifica según su naturaleza.
@@ -21,7 +21,7 @@
           img(src='@/assets/curso/temas/tema2/img1.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.my-5
-      p.mb-5 Eventos como relaciones públicas 
+      h4.mb-5 Eventos como relaciones públicas 
       p Desde el punto de vista del  marketing, un evento es una herramienta de relaciones públicas y comunicación que se convierten en una carta de presentación frente a posibles clientes, medios de comunicación y público en general de una empresa, organización o la misma ciudad con el fin de dar a conocer un lanzamiento de la empresa de nuevos productos y/o servicios, dar a conocer un nuevo elemento de innovación sobre procesos, materiales, etc, resaltar alguna particularidad de la marca, entre otros.
 
 
@@ -237,7 +237,7 @@
         p Para ampliar información lo invitamos a revisar el #[strong anexo 5.1. Recursos del evento], allí encuentra los recursos mínimos y más usados en la planeación de eventos.
 
         .col-lg-8
-          a.anexo.mb-4(:href="obtenerLink('/downloads/anexos/anexo_5.1.pdf')" target="_blank")
+          a.anexo.mb-4(:href="obtenerLink('/downloads/anexos/anexo-5.1.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
@@ -363,7 +363,7 @@
         ul.lista-ul
           li
             i.fas.fa-check
-            | Material de acreditación, credenciales, folletos, #[i souvenirs], diplomas, etc.
+            p.mb-0 Material de acreditación, credenciales, folletos, #[i souvenirs], diplomas, etc.
           li  
             i.fas.fa-check
             | Servicio de #[i catering, coffe break,] almuerzos, cenas.

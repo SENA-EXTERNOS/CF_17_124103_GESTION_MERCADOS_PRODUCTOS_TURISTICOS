@@ -91,7 +91,7 @@ export default {
   },
   complementario: [
     {
-      tema: '2.4 Normatividad',
+      tema: 'Normatividad',
       referencia:
         'Ley 1480 de 2011. <i>Por medio de la cual se expide el Estatuto del Consumidor y se dictan otras disposiciones.</i> Octubre 12 de 2011. DO N° 48220.',
       tipo: 'Ley',
@@ -99,24 +99,25 @@ export default {
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=44306',
     },
     {
-      tema: '2.4 Normatividad',
-      referencia: 'Enlace web “ley 527 de 1999”',
+      tema: 'Normatividad',
+      referencia:
+        'Ley 527 de 1999. Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones. 18 de agosto de 1999.D.O. No. 43.673.',
       tipo: 'Ley',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_0527_1999.html',
     },
     {
-      tema: '2.4 Normatividad',
+      tema: 'Normatividad',
       referencia:
-        'Superintendencia de Industria y Comercio. <i>Guía sobre el tratamiento de datos personales para fines de comercio electrónico.</i> 2019.',
+        'Superintendencia de Industria y Comercio. (2019). <i>Guía sobre el tratamiento de datos personales para fines de comercio electrónico.</i>',
       tipo: 'Guía',
       link:
         'https://www.sic.gov.co/sites/default/files/files/pdf/Guia%20SIC%20Tratamiento%20Datos%20Personales%20ComercioElectronico(1).pdf',
     },
     {
-      tema: '2.3 Planeación de eventos',
+      tema: 'Planeación de eventos',
       referencia:
-        'López Gómez, MP (sf). <i>Organización de actos: definir recursos y asignar responsabilidades.</i> Protocolo.org.',
+        'López Gómez, M P. (s.f).  <i>Recursos para la organización de datos.</i> Protocolo.org. ',
       tipo: '<b>Página web<b>',
       link:
         'https://www.protocolo.org/ceremonial/eventos/recursos-para-la-organizacion-de-actos.html ',
