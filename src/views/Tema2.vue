@@ -207,7 +207,7 @@
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Mercado en línea")
-            p Realizar actividades de mercado en línea, es considerado como ventas a distancia. Este tipo de ventas están contempladas en la ley 1480 de 2011 del estatuto del consumidor (artículo 5°, numeral 16). 
+            p Realizar actividades de mercado en línea, es considerado como ventas a distancia. Este tipo de ventas están contempladas en la Ley 1480 de 2011 del estatuto del consumidor (artículo 5°, numeral 16). 
             p Este numeral indica que este tipo de ventas son las efectuadas sin tener contacto físico con el producto y se llevan a cabo vía telefónica, a través de correo y demás canales disponibles en el comercio en línea.
 
           .row(titulo="Ventas que utilizan métodos no tradicionales")
