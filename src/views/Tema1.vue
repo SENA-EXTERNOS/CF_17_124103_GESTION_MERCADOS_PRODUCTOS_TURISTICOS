@@ -362,8 +362,8 @@
 
 
     .row.justify.content-center.my-5
-      TabsA.color-acento-contenido
-        .tarjeta.tarjeta--rosa.p-5(titulo="Gestión comercial de eventos")
+      TabsC.color-acento-contenido
+        .tarjeta.tarjeta--rosa.p-5.mb-3(titulo="Gestión comercial de eventos")
           .row.justify-content-center
             .col-5.col-lg-2
               figure
@@ -395,7 +395,7 @@
                   i.fas.fa-check
                   | Maximiza la rentabilidad.
 
-        .tarjeta.tarjeta--rosa.p-5(titulo="Análisis situacional")
+        .tarjeta.tarjeta--rosa.p-5.mb-3(titulo="Análisis situacional")
           .row.justify-content-center
             .col-5.col-lg-2
               figure
@@ -412,7 +412,7 @@
                   | Realizar un análisis de mercado.
               p Conocer el entorno, la situación actual del mercado en el que actúa la empresa y su posición con respecto a la competencia, implica el conocimiento del público objetivo y toda la información clave para delimitar el segmento a analizar.
 
-        .tarjeta.tarjeta--rosa.p-5(titulo="Fijar objetivos")
+        .tarjeta.tarjeta--rosa.p-5.mb-3(titulo="Fijar objetivos")
           .row.justify-content-center
             .col-5.col-lg-2
               figure
@@ -421,7 +421,7 @@
             .col-lg-10
               p Todo plan debe partir de unos objetivos claros, alcanzables, medibles y enmarcados en un periodo determinado. Esta etapa responde a la pregunta ¿qué se pretende lograr en la gestión comercial?
 
-        .tarjeta.tarjeta--rosa.p-5(titulo="Producto turístico")
+        .tarjeta.tarjeta--rosa.p-5.mb-3(titulo="Producto turístico")
           .row.justify-content-center
             .col-5.col-lg-2
               figure
@@ -430,7 +430,7 @@
             .col-lg-10
               p El gestor comercial debe conocer el producto, desde sus propiedades, características físicas y funcionalidades básicas, hasta saber la necesidad que cubre y aquello que motiva al cliente a adquirirlo.
 
-        .tarjeta.tarjeta--rosa.p-5(titulo="Estructurar un plan de <b><i>marketing</i></b>")
+        .tarjeta.tarjeta--rosa.p-5.mb-3(titulo="Estructurar un plan de <b><i>marketing</i></b>")
           .row.justify-content-center
             .col-5.col-lg-2
               figure
@@ -439,7 +439,7 @@
             .col-lg-10
               p Plasmar de manera estructurada, las estrategias que se implementarán a través de los diferentes elementos del #[i marketing.]
 
-        .tarjeta.tarjeta--rosa.p-5(titulo="Finanzas y proyecciones")
+        .tarjeta.tarjeta--rosa.p-5.mb-3(titulo="Finanzas y proyecciones")
           .row.justify-content-center
             .col-5.col-lg-2
               figure
@@ -448,7 +448,7 @@
             .col-lg-10
               p Reúne la información de carácter financiero, que impacta la gestión comercial de eventos, como por ejemplo los indicadores económicos, la elasticidad de la demanda, las políticas de fijación de precios y de recaudo, el costo de adquisición de clientes y las proyecciones de venta.
 
-        .tarjeta.tarjeta--rosa.p-5(titulo="Seguimiento y control")
+        .tarjeta.tarjeta--rosa.p-5.mb-3(titulo="Seguimiento y control")
           .row.justify-content-center
             .col-5.col-lg-2
               figure
@@ -457,7 +457,7 @@
             .col-lg-10
               p Hacer monitoreo de las acciones con respecto al logro de los objetivos, determinar la efectividad y tomar decisiones que permitan alcanzar la competitividad de la empresa.
 
-        .tarjeta.tarjeta--rosa.p-5(titulo="El mercadeo o <b><i>marketing</i></b> digital")
+        .tarjeta.tarjeta--rosa.p-5.mb-3(titulo="El mercadeo o <b><i>marketing</i></b> digital")
           .row.justify-content-center
             .col-5.col-lg-2
               figure
@@ -466,7 +466,7 @@
             .col-lg-10
               p La evolución del mercado tiene como base la preponderancia digital; se debe implementar estrategias que lleven a una marca o negocio a visibilizarse en el mercado, y por supuesto los eventos. El mercadeo o #[strong #[i marketing]] digital comprende todas las estrategias de promoción de una marca o negocio focalizadas en el internet, por tanto, durante el desarrollo de este componente formativo haremos un recorrido por los elementos, términos y expresiones propios de la cultura digital, que se hace indispensable para estructurar el plan comercial de eventos.
 
-        .tarjeta.tarjeta--rosa.p-5(titulo="Mercadeo digital")
+        .tarjeta.tarjeta--rosa.p-5.mb-3(titulo="Mercadeo digital")
           .row.justify-content-center
             .col-5.col-lg-2
               figure
@@ -475,7 +475,7 @@
             .col-lg-10
               p El mercadeo digital son todos los esfuerzos que realiza una empresa o un profesional en plataformas #[strong #[i on-line]], con el fin de capturar la atención de las personas y  convertirlos en clientes potenciales, así, nace la necesidad de estructurar un plan de mercadeo digital, debe estar acorde con las tendencias del mercado y la visión estratégica del negocio, así como alineado a los patrones de conducta de los consumidores, con estos tres aspectos, permitirá tener una ventaja competitiva y comparativa  frente al mercado. 
 
-        .tarjeta.tarjeta--rosa.p-5(titulo="Empresa y consumidor")
+        .tarjeta.tarjeta--rosa.p-5.mb-3(titulo="Empresa y consumidor")
           .row.justify-content-center
             .col-5.col-lg-2
               figure
