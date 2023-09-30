@@ -366,7 +366,7 @@
             p.mb-0 Material de acreditación, credenciales, folletos, #[i souvenirs], diplomas, etc.
           li  
             i.fas.fa-check
-            | Servicio de #[i catering, coffe break,] almuerzos, cenas.
+            p.mb-0 Servicio de #[i catering, coffe break,] almuerzos, cenas.
           li  
             i.fas.fa-check
             | Personal temporal.

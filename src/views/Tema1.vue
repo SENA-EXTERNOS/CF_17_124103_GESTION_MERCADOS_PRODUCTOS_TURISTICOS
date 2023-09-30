@@ -567,14 +567,14 @@
                   i.fas.fa-check
                   | Tener un marco de tiempo definido.
 
-        .py-4.py-md-5(titulo="Objetivos SMART" :icono="require('@/assets/curso/temas/tema1/img46.png')")
+        .py-4.py-md-5(titulo="Objetivos <i>SMART</i>" :icono="require('@/assets/curso/temas/tema1/img46.png')")
           .row
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/img47.png', alt='Texto que describa la imagen')
             
             .col-lg-7
-              h4 Establecer objetivos #[strong SMART] 
+              h4 Establecer objetivos #[strong #[i SMART]] 
               p Para lograr el cometido de establecer objetivos claros, pero sobre todo realistas y cumplibles, nos apoyaremos en la técnica #[i #[b SMART]] (Jiménez Vida, 2021), que proviene de un acrónimo en inglés que significa:
               ul.lista-ul
                 li
