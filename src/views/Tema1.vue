@@ -97,27 +97,32 @@
         div(x="22%" y="10%" numero="1")
           .row.justify-content-center
             .col-lg-6
-              p.my-5 Llevar un proceso complejo a fragmentación en pequeñas tareas, logrando incrementar la productividad, eficiencia y la reducción de costos en recursos.
+              .tarjeta.color-acento-botones.p-3(x="11.3%" y="70%" numero="").boton1
+                p.mt-2 Llevar un proceso complejo a fragmentación en pequeñas tareas, logrando incrementar la productividad, eficiencia y la reducción de costos en recursos.
 
         div(x="22%" y="50%" numero="2")
           .row.justify-content-center
             .col-lg-6
-              p.my-5 Integrar objetivos múltiples en uno solo claramente definido, de fácil comprensión para el equipo que interactúa en la realización de un evento.
+              .tarjeta.color-acento-botones.p-3(x="11.3%" y="70%" numero="").boton1
+                p.mt-2 Integrar objetivos múltiples en uno solo claramente definido, de fácil comprensión para el equipo que interactúa en la realización de un evento.
 
         div(x="22%" y="90%" numero="3")
           .row.justify-content-center
             .col-lg-6
-              p.my-5 Escala de niveles de autoridad que se produce para articular las funciones a partir de la división del trabajo.
+              .tarjeta.color-acento-botones.p-3(x="11.3%" y="70%" numero="").boton1
+                p.mt-2 Escala de niveles de autoridad que se produce para articular las funciones a partir de la división del trabajo.
 
         div(x="78%" y="30%" numero="4")
           .row.justify-content-center
             .col-lg-6
-              p.my-5 La responsabilidad tiene que ir acompañada de una correspondiente delegación de autoridad para que pueda cumplir con los compromisos que se le exige.
+             .tarjeta.color-acento-botones.p-3(x="11.3%" y="70%" numero="").boton1
+                p.mt-2 La responsabilidad tiene que ir acompañada de una correspondiente delegación de autoridad para que pueda cumplir con los compromisos que se le exige.
 
         div(x="78%" y="71%" numero="5")
           .row.justify-content-center
             .col-lg-6
-              p.my-5 Se trata de la confianza y entregar a otra persona del equipo una o más funciones bien definidas con el fin de liberarse de algunas cargas y poderse decidir a otras labores de más importancia.
+             .tarjeta.color-acento-botones.p-3(x="11.3%" y="70%" numero="").boton1
+                p.mt-2 Se trata de la confianza y entregar a otra persona del equipo una o más funciones bien definidas con el fin de liberarse de algunas cargas y poderse decidir a otras labores de más importancia.
 
     .row.justify-content-center.my-5
       .col-lg-10
