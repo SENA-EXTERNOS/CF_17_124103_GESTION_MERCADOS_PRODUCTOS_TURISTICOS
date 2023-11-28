@@ -117,7 +117,7 @@ export default {
     {
       tema: 'Planeación de eventos',
       referencia:
-        'López Gómez, M P. (s.f).  <i>Recursos para la organización de datos.</i> Protocolo.org. ',
+        'López Gómez, MP (sf). <i>Recursos para la organización de actos</i>. Protocolo.org',
       tipo: 'Página web',
       link:
         'https://www.protocolo.org/ceremonial/eventos/recursos-para-la-organizacion-de-actos.html ',
